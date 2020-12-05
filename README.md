@@ -1,3 +1,7 @@
 [![Build Status](https://travis-ci.org/AaronBuxbaum/RealTimeTradeGame.svg)](https://travis-ci.org/AaronBuxbaum/RealTimeTradeGame)
 [![Dependency Status](https://david-dm.org/AaronBuxbaum/RealTimeTradeGame.svg)](https://david-dm.org/AaronBuxbaum/RealTimeTradeGame#info=dependencies)
-[![Coverage Status](https://coveralls.io/repos/AaronBuxbaum/RealTimeTradeGame/badge.svg?branch=master&service=github)](https://coveralls.io/github/AaronBuxbaum/RealTim
+[![Coverage Status](https://coveralls.io/repos/AaronBuxbaum/RealTimeTradeGame/badge.svg?branch=master&service=github)](https://coveralls.io/github/AaronBuxbaum/RealTimeTradeGame?branch=master)
+
+### To build
+1. Clone git repo
+2. Run `npm install`. You
