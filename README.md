@@ -5,4 +5,6 @@
 ### To build
 1. Clone git repo
 2. Run `npm install`. You may need to install `npm` from npmjs.com.
-3. Build and deploy with `gulp deploy`. 
+3. Build and deploy with `gulp deploy`. You may need to install `gulp` by running `npm install --global gulp`.
+
+#### Vi
