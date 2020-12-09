@@ -8,4 +8,6 @@
 3. Build and deploy with `gulp deploy`. You may need to install `gulp` by running `npm install --global gulp`.
 
 #### Visual Studio Code
-If you are using [Visual Studio Code](https://code.visualstudio.com/), you 
+If you are using [Visual Studio Code](https://code.visualstudio.com/), you will want to get Intellisense typings for all of the libraries that are in use.
+
+1. Install the TypeS
