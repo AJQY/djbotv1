@@ -7,4 +7,5 @@
 2. Run `npm install`. You may need to install `npm` from npmjs.com.
 3. Build and deploy with `gulp deploy`. You may need to install `gulp` by running `npm install --global gulp`.
 
-#### Vi
+#### Visual Studio Code
+If you are using [Visual Studio Code](https://code.visualstudio.com/), you 
