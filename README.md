@@ -11,4 +11,5 @@
 If you are using [Visual Studio Code](https://code.visualstudio.com/), you will want to get Intellisense typings for all of the libraries that are in use.
 
 1. Install the TypeScript Definition manager by running `npm install --global tsd`.
-2. Build the `typings` dir
+2. Build the `typings` directory by running `gulp install-tsd`.
+3. To add new typings, run `tsd query <typing1> <typing2> <ty
