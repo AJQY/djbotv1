@@ -12,4 +12,7 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
 
 1. Install the TypeScript Definition manager by running `npm install --global tsd`.
 2. Build the `typings` directory by running `gulp install-tsd`.
-3. To add new typings, run `tsd query <typing1> <typing2> <ty
+3. To add new typings, run `tsd query <typing1> <typing2> <typingN> --action install --save`.
+
+#### Updating dependencies
+1. Install `npm-check-updat
