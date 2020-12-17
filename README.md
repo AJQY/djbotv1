@@ -15,4 +15,5 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
 3. To add new typings, run `tsd query <typing1> <typing2> <typingN> --action install --save`.
 
 #### Updating dependencies
-1. Install `npm-check-updat
+1. Install `npm-check-updates`: `npm install --global npm-check-updates`.
+2. Check for new dependencies: `ncu
