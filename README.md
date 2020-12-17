@@ -16,4 +16,6 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
 
 #### Updating dependencies
 1. Install `npm-check-updates`: `npm install --global npm-check-updates`.
-2. Check for new dependencies: `ncu
+2. Check for new dependencies: `ncu`.
+3. If there are new dependencies, update with: `ncu -u`. 
+  - Note that this could break some t
