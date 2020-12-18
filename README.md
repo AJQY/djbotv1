@@ -21,4 +21,5 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
   - Note that this could break some things in the system! This just keeps dependencies up-to-date.
 
 
-### Runn
+### Running server
+1. Build the server with `gulp build` if it has not already been bui
