@@ -25,4 +25,4 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
 1. Build the server with `gulp build` if it has not already been built. Several files should now be within a directory named `build`.
 2. Start the NodeJS server with `gulp`.
   - Note that if port `8000` is not opened, you must define the environment variable `process.env.PORT` to an open port.
-3. The applicat
+3. The application should now be running locally. Point your favorite browser to `localhost:8000` to ac
