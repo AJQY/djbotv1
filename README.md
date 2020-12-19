@@ -23,4 +23,5 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you will 
 
 ### Running server
 1. Build the server with `gulp build` if it has not already been built. Several files should now be within a directory named `build`.
-2. Start the NodeJS ser
+2. Start the NodeJS server with `gulp`.
+  - Note that if port `8000` is not opened, you must d
