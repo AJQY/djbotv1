@@ -41,3 +41,5 @@ RealTimeTradeGame uses [Protractor](http://angular.github.io/protractor) for end
 ### Contributing
 If you wish to contribute, keep the following in mind:
 
+1. Write Karma unit tests for any new functionality.
+2. If applicable, write Prot
