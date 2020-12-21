@@ -38,4 +38,6 @@ RealTimeTradeGame uses [Karma](http://karma-runner.github.io/) for unit tests. Y
 RealTimeTradeGame uses [Protractor](http://angular.github.io/protractor) for end-to-end tests. You can run those tests with `gulp e2e-tests`.
 
 
-### 
+### Contributing
+If you wish to contribute, keep the following in mind:
+
