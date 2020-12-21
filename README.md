@@ -35,4 +35,7 @@ Both unit tests and end-to-end tests can be run with `gulp test`.
 RealTimeTradeGame uses [Karma](http://karma-runner.github.io/) for unit tests. You can test the application by running `gulp unit-tests`.
 
 #### End-to-end tests
-RealTimeTradeGame uses [Protractor](http://angular.github.io/protra
+RealTimeTradeGame uses [Protractor](http://angular.github.io/protractor) for end-to-end tests. You can run those tests with `gulp e2e-tests`.
+
+
+### 
