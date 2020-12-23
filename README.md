@@ -44,4 +44,5 @@ If you wish to contribute, keep the following in mind:
 1. Write Karma unit tests for any new functionality.
 2. If applicable, write Protractor end-to-end tests for visual additions.
 3. Run the tests (`gulp test`) such that they all pass.
-4. Check the coverage report. Test coverage should _not_ be less 
+4. Check the coverage report. Test coverage should _not_ be less than the master branch.
+5. Submit a pull request to the GitHub repository.
