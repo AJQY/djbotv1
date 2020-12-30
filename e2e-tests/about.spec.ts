@@ -5,4 +5,7 @@ describe('about modal', function () {
 
     it('opens a modal', function () {
         var openButton = element(by.css('button[aria-label=About]'));
-        openButton.click()
+        openButton.click();
+
+        var dialog = element(by.tagName('md-dialog'));
+        expect(dialog.isPresent()).toBe
