@@ -10,4 +10,6 @@ describe('about modal', function () {
         var dialog = element(by.tagName('md-dialog'));
         expect(dialog.isPresent()).toBeTruthy();
 
-        var closeButton = element(by.tagName('md-dialog-actions')).element
+        var closeButton = element(by.tagName('md-dialog-actions')).element(by.tagName('button'));
+        closeButton.click();
+        expect(dialog.isPresent()).toBeFalsy
