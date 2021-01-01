@@ -12,4 +12,6 @@ describe('about modal', function () {
 
         var closeButton = element(by.tagName('md-dialog-actions')).element(by.tagName('button'));
         closeButton.click();
-        expect(dialog.isPresent()).toBeFalsy
+        expect(dialog.isPresent()).toBeFalsy();
+    });
+});
