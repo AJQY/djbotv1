@@ -6,4 +6,5 @@ describe('authentication interface', function () {
         browser.get('http://localhost:' + (process.env.PORT || 8000));
     });
 
-   
+    it('should allow you to authenticate out and back in', function () {
+        //Lo
