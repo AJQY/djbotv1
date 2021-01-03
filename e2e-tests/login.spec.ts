@@ -7,4 +7,5 @@ describe('authentication interface', function () {
     });
 
     it('should allow you to authenticate out and back in', function () {
-        //Lo
+        //Log Out
+        var logOutTab = element.all(by.tagName('md-tab
