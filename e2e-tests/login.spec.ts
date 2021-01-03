@@ -10,4 +10,6 @@ describe('authentication interface', function () {
         //Log Out
         var logOutTab = element.all(by.tagName('md-tab-item')).last();
         expect(logOutTab.getText()).toEqual('LOG OUT');
-        logOutTab.click(
+        logOutTab.click();
+        var logOutButton = element(by.buttonText('Log Out'));
+        expect(logOut
