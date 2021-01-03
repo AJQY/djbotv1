@@ -8,4 +8,6 @@ describe('authentication interface', function () {
 
     it('should allow you to authenticate out and back in', function () {
         //Log Out
-        var logOutTab = element.all(by.tagName('md-tab
+        var logOutTab = element.all(by.tagName('md-tab-item')).last();
+        expect(logOutTab.getText()).toEqual('LOG OUT');
+        logOutTab.click(
