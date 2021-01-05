@@ -12,4 +12,7 @@ describe('authentication interface', function () {
         expect(logOutTab.getText()).toEqual('LOG OUT');
         logOutTab.click();
         var logOutButton = element(by.buttonText('Log Out'));
-        expect(logOut
+        expect(logOutButton.isPresent()).toBeTruthy();
+        logOutButton.click();
+
+        var logI
