@@ -15,4 +15,7 @@ describe('authentication interface', function () {
         expect(logOutButton.isPresent()).toBeTruthy();
         logOutButton.click();
 
-        var logI
+        var logIn = buttons.first();
+
+        //Fail for invalid email
+        element(by.model('ctrl.email')).sendK
