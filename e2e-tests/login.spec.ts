@@ -18,4 +18,6 @@ describe('authentication interface', function () {
         var logIn = buttons.first();
 
         //Fail for invalid email
-        element(by.model('ctrl.email')).sendK
+        element(by.model('ctrl.email')).sendKeys('example');
+        element(by.model('ctrl.password')).sendKeys('examplepassword');
+       
