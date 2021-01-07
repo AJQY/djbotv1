@@ -20,4 +20,7 @@ describe('authentication interface', function () {
         //Fail for invalid email
         element(by.model('ctrl.email')).sendKeys('example');
         element(by.model('ctrl.password')).sendKeys('examplepassword');
-       
+        logIn.click();
+        expect(dialog.isPresent()).toBe(true);
+
+        //Fail for non-existant a
