@@ -29,4 +29,5 @@ describe('authentication interface', function () {
         expect(dialog.isPresent()).toBe(true);
     
         //Success
- 
+        element(by.model('ctrl.email')).sendKeys('a@a.com');
+  
