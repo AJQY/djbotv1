@@ -30,4 +30,6 @@ describe('authentication interface', function () {
     
         //Success
         element(by.model('ctrl.email')).sendKeys('a@a.com');
-  
+        element(by.model('ctrl.password')).sendKeys('a');
+        logIn.click();
+ 
