@@ -32,4 +32,5 @@ describe('authentication interface', function () {
         element(by.model('ctrl.email')).sendKeys('a@a.com');
         element(by.model('ctrl.password')).sendKeys('a');
         logIn.click();
- 
+        return browser.driver.wait(function () {
+            return dialog.isPresent().the
