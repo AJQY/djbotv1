@@ -36,4 +36,6 @@ describe('authentication interface', function () {
             return dialog.isPresent().then(function (present) {
                 return !present;
             });
-     
+        }, 10000);
+    });
+});
