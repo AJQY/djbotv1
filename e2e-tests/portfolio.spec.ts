@@ -4,4 +4,6 @@ describe('portfolio interface', function () {
         //element.all(by.tagName('md-tab-item')).get(1).click();
     });
 
-    it('runs through the basic stock functions', fun
+    it('runs through the basic stock functions', function () {
+        //navigate to the portfolio page
+        var nothing
