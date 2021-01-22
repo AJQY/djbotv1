@@ -6,4 +6,4 @@ describe('portfolio interface', function () {
 
     it('runs through the basic stock functions', function () {
         //navigate to the portfolio page
-        var nothing
+        var nothingHereText = element(by.cssContainingText('.md-title', "Looks like there's nothin
