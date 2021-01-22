@@ -11,4 +11,7 @@ describe('portfolio interface', function () {
 
         browser.driver.wait(function () {
             return nothingHereText.isPresent();
-   
+        }, 5000);
+
+        expect(percentage.isPresent()).toBeTruthy();
+    
