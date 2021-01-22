@@ -6,4 +6,7 @@ describe('portfolio interface', function () {
 
     it('runs through the basic stock functions', function () {
         //navigate to the portfolio page
-        var nothingHereText = element(by.cssContainingText('.md-title', "Looks like there's nothin
+        var nothingHereText = element(by.cssContainingText('.md-title', "Looks like there's nothing here yet!"));
+        var percentage = element(by.binding('ctrl.getMax(0)'));
+
+        br
