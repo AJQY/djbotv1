@@ -9,4 +9,6 @@ describe('portfolio interface', function () {
         var nothingHereText = element(by.cssContainingText('.md-title', "Looks like there's nothing here yet!"));
         var percentage = element(by.binding('ctrl.getMax(0)'));
 
-        br
+        browser.driver.wait(function () {
+            return nothingHereText.isPresent();
+   
