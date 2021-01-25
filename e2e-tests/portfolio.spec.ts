@@ -14,4 +14,7 @@ describe('portfolio interface', function () {
         }, 5000);
 
         expect(percentage.isPresent()).toBeTruthy();
-    
+        expect(percentage.getText()).toEqual('100%');
+        
+        //add a stock
+      
