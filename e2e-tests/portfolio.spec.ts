@@ -17,4 +17,5 @@ describe('portfolio interface', function () {
         expect(percentage.getText()).toEqual('100%');
         
         //add a stock
-      
+        element(by.buttonText('Add Stock')).click();
+        element(by.tagName('md-au
