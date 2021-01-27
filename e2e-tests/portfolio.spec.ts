@@ -24,4 +24,4 @@ describe('portfolio interface', function () {
             return element(by.cssContainingText('span.item-title', 'Apple')).isPresent();
         }, 5000);
 
-        element(by.tag
+        element(by.tagName('md-autocomplete')).element(by.tagName('input')).sendKeys(protractor.Key.
