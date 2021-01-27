@@ -21,4 +21,7 @@ describe('portfolio interface', function () {
         element(by.tagName('md-autocomplete')).element(by.tagName('input')).sendKeys('AAPL');
 
         browser.driver.wait(function () {
-            return element(by.cssContainingText('spa
+            return element(by.cssContainingText('span.item-title', 'Apple')).isPresent();
+        }, 5000);
+
+        element(by.tag
