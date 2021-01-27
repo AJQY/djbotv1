@@ -18,4 +18,6 @@ describe('portfolio interface', function () {
         
         //add a stock
         element(by.buttonText('Add Stock')).click();
-        element(by.tagName('md-au
+        element(by.tagName('md-autocomplete')).element(by.tagName('input')).sendKeys('AAPL');
+
+        browser
