@@ -20,4 +20,5 @@ describe('portfolio interface', function () {
         element(by.buttonText('Add Stock')).click();
         element(by.tagName('md-autocomplete')).element(by.tagName('input')).sendKeys('AAPL');
 
-        browser
+        browser.driver.wait(function () {
+            return element(by.cssContainingText('spa
