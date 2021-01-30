@@ -26,4 +26,6 @@ describe('portfolio interface', function () {
 
         element(by.tagName('md-autocomplete')).element(by.tagName('input')).sendKeys(protractor.Key.ENTER);
         element(by.buttonText('Confirm')).click();
-        expect(elem
+        expect(element(by.cssContainingText('span.md-body-1', 'Apple Inc.')).isPresent()).toBeTruthy();
+
+  
