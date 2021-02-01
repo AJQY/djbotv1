@@ -29,4 +29,7 @@ describe('portfolio interface', function () {
         expect(element(by.cssContainingText('span.md-body-1', 'Apple Inc.')).isPresent()).toBeTruthy();
 
         //update stock percentage
-        expect(percentage.getText()).toEqual('
+        expect(percentage.getText()).toEqual('100%');
+
+        var slider = element(by.model('$ctrl.stock.percentage'));
+        browser.ac
