@@ -28,4 +28,5 @@ describe('portfolio interface', function () {
         element(by.buttonText('Confirm')).click();
         expect(element(by.cssContainingText('span.md-body-1', 'Apple Inc.')).isPresent()).toBeTruthy();
 
-  
+        //update stock percentage
+        expect(percentage.getText()).toEqual('
