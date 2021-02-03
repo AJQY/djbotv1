@@ -34,4 +34,7 @@ describe('portfolio interface', function () {
         var slider = element(by.model('$ctrl.stock.percentage'));
         browser.actions().dragAndDrop(slider, { x: 100, y: 0 }).perform();
 
-        expect(percent
+        expect(percentage.getText()).not.toEqual('100%');
+        
+        //delete stock
+        element(by.css('.d
