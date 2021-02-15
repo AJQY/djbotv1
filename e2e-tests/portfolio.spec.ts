@@ -37,4 +37,6 @@ describe('portfolio interface', function () {
         expect(percentage.getText()).not.toEqual('100%');
         
         //delete stock
-        element(by.css('.d
+        element(by.css('.delete-icon')).click();
+
+        var dialogButton = element(by.tagName('md-dialog-actio
