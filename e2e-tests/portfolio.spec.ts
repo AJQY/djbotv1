@@ -39,4 +39,7 @@ describe('portfolio interface', function () {
         //delete stock
         element(by.css('.delete-icon')).click();
 
-        var dialogButton = element(by.tagName('md-dialog-actio
+        var dialogButton = element(by.tagName('md-dialog-actions')).all(by.tagName('button')).last();
+        dialogButton.click();
+
+      
