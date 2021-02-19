@@ -1,2 +1,7 @@
 {
-  "firebase"
+  "firebase": "realtimetrade",
+  "public": "build",
+  "ignore": [
+    "!build"
+  ]
+}
