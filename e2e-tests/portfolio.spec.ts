@@ -42,4 +42,6 @@ describe('portfolio interface', function () {
         var dialogButton = element(by.tagName('md-dialog-actions')).all(by.tagName('button')).last();
         dialogButton.click();
 
-      
+        expect(element(by.tagName('stock-slider')).isPresent()).toBeFalsy();
+    });
+});
