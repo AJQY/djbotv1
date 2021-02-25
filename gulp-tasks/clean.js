@@ -9,4 +9,9 @@ var g = require('./global.json');
 gulp.task('clean', ['clean-npm', 'clean-build', 'clean-typings', 'clean-coverage', 'clean-docs']);
 
 //Clean the node_modules directory
-gulp.task('clean-np
+gulp.task('clean-npm', function () {
+  return del(g.NPM);
+});
+
+//Clean the build directory
+gulp.task('clean-build', func
