@@ -14,4 +14,9 @@ gulp.task('clean-npm', function () {
 });
 
 //Clean the build directory
-gulp.task('clean-build', func
+gulp.task('clean-build', function () {
+  return del(g.BUILD);
+});
+
+//Clean the typings directory
+gulp.task
