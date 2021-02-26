@@ -27,3 +27,8 @@ gulp.task('clean-typings', function () {
 gulp.task('clean-coverage', function () {
   return del('coverage');
 })
+
+//Clean the docs directory
+gulp.task('clean-docs', function () {
+  return del('docs');
+});
