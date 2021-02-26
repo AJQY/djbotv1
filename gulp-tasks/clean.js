@@ -19,4 +19,8 @@ gulp.task('clean-build', function () {
 });
 
 //Clean the typings directory
-gulp.task
+gulp.task('clean-typings', function () {
+  return del(g.TYPINGS);
+});
+
+//Clean the coverage di
