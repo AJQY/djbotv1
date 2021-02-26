@@ -23,4 +23,7 @@ gulp.task('clean-typings', function () {
   return del(g.TYPINGS);
 });
 
-//Clean the coverage di
+//Clean the coverage directory
+gulp.task('clean-coverage', function () {
+  return del('coverage');
+})
