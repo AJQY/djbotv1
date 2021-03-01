@@ -1,3 +1,6 @@
 var gulp = require('gulp');
 var ngDocs = require('gulp-ngdocs');
-var g = r
+var g = require('./global.json');
+
+gulp.task('docs', ['concat'], function () {
+  return gulp.
