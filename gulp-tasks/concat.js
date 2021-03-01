@@ -91,3 +91,11 @@ gulp.task('concat-json', function () {
       return new Buffer(JSON.stringify(data));
     }))
     .pipe(gulp.dest(g.BUILD));
+});
+
+//Copy the index.html file to the build directory
+gulp.task('copy-index', function () {
+  return gulp
+    .src(g.SRC + 'index.html')
+    .pipe(gulp.dest(g.BUILD));
+});
