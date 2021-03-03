@@ -6,4 +6,7 @@ gulp.task('docs', ['concat'], function () {
   return gulp.src(g.SRC + '**/*.js')
     .pipe(ngDocs.process({
       loadDefaults: {
- 
+        angular: false,
+        marked: true,
+        prettify: true,
+        angularAn
