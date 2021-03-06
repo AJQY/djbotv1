@@ -17,4 +17,5 @@ gulp.task('docs', ['concat'], function () {
         '../../build/templates.js'
       ]
     }))
-    .pipe(gulp.dest
+    .pipe(gulp.dest('docs'));
+});
