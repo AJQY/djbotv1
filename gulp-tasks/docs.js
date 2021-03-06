@@ -9,4 +9,8 @@ gulp.task('docs', ['concat'], function () {
         angular: false,
         marked: true,
         prettify: true,
-        angularAn
+        angularAnimate: false
+      },
+      scripts: [
+        '../../build/vendors.js',
+        '../..
