@@ -13,4 +13,8 @@ gulp.task('docs', ['concat'], function () {
       },
       scripts: [
         '../../build/vendors.js',
-        '../..
+        '../../build/app.js',
+        '../../build/templates.js'
+      ]
+    }))
+    .pipe(gulp.dest
