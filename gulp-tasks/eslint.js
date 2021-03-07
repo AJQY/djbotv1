@@ -7,4 +7,5 @@ gulp.task('lint', function () {
         .src([g.SRC + '**/*.js'])
         .pipe(eslint())
         .pipe(eslint.format())
-        .pipe(
+        .pipe(eslint.failOnError());
+});
