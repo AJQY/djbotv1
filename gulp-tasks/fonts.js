@@ -4,4 +4,6 @@ var g = require('./global.json');
 
 gulp.task('fonts', function () {
   return gulp
-   
+    .src('./fonts.list')
+    .pipe(googleWebFonts({}))
+    .pipe(gulp.des
