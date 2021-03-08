@@ -1,0 +1,4 @@
+{
+	"SRC": "src/",
+	"NPM": "node_modules/",
+	"BUILD": "b

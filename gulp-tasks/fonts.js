@@ -6,4 +6,5 @@ gulp.task('fonts', function () {
   return gulp
     .src('./fonts.list')
     .pipe(googleWebFonts({}))
-    .pipe(gulp.des
+    .pipe(gulp.dest(g.BUILD));
+});
