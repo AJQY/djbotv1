@@ -1,4 +1,6 @@
 {
 	"SRC": "src/",
 	"NPM": "node_modules/",
-	"BUILD": "b
+	"BUILD": "build/",
+	"TYPINGS": "typings/"
+}
