@@ -1,3 +1,7 @@
 /* Dependencies */
 var gulp = require('gulp');
-va
+var install = require('gulp-install');
+var g = require('./global.json');
+
+/* Install tasks */
+//Ins
