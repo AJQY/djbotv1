@@ -5,4 +5,8 @@ var g = require('./global.json');
 
 /* Install tasks */
 //Install npm (not Typescripts -- those should only be run when using Visual Studio)
-gulp.task(
+gulp.task('install', ['install-npm']);
+
+//Install npm packages
+gulp.task('install-npm', function () {
+  return gulp
