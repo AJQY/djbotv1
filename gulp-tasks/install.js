@@ -10,3 +10,6 @@ gulp.task('install', ['install-npm']);
 //Install npm packages
 gulp.task('install-npm', function () {
   return gulp
+    .src('package.json')
+    .pipe(install());
+});
