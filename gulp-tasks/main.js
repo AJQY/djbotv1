@@ -11,3 +11,7 @@ gulp.task('deploy', function (callback) {
 
 gulp.task('develop', function (callback) {
   runSequence('concat', 'server', callback);
+});
+
+gulp.task('develop-watch', function (callback) {
+  runSequence('develop', 'watc
