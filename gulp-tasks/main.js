@@ -9,4 +9,5 @@ gulp.task('deploy', function (callback) {
 	runSequence('build', 'server', callback);
 });
 
-gulp.task('
+gulp.task('develop', function (callback) {
+  runSequence('concat', 'server', callback);
