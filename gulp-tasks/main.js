@@ -14,4 +14,8 @@ gulp.task('develop', function (callback) {
 });
 
 gulp.task('develop-watch', function (callback) {
-  runSequence('develop', 'watc
+  runSequence('develop', 'watch', callback);
+});
+
+gulp.task('debug', ['docs', 'lint', 'test']);
+gulp.task('def
