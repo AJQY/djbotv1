@@ -18,4 +18,4 @@ gulp.task('develop-watch', function (callback) {
 });
 
 gulp.task('debug', ['docs', 'lint', 'test']);
-gulp.task('def
+gulp.task('default', ['server']);
