@@ -9,4 +9,10 @@ gulp.task('server', function () {
     server = gls.static('build', port);
 
     require('connect-livereload')();
-    require('../server-scripts/portfo
+    require('../server-scripts/portfolio-updater.js').initialize();
+
+    server.start();
+});
+
+//Just host files
+gulp.task('host', functi
