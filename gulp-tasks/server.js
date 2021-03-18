@@ -15,4 +15,6 @@ gulp.task('server', function () {
 });
 
 //Just host files
-gulp.task('host', functi
+gulp.task('host', function () {
+    var port = process.env.PORT || 8000;
+    server = gls.stati
