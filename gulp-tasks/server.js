@@ -23,4 +23,8 @@ gulp.task('host', function () {
     server.start();
 });
 
-gulp.task('sto
+gulp.task('stop-server', function () {
+    if (server) {
+        server.stop();
+    }
+});
