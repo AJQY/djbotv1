@@ -7,3 +7,7 @@ gulp.task('ts', function () {
   return gulp
     .src([
       'typings/main.d.ts',
+      'src/**/*-module.ts',
+      'src/**/*.ts',
+      '!src/**/*.spec.ts'
+    
