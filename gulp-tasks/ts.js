@@ -10,4 +10,8 @@ gulp.task('ts', function () {
       'src/**/*-module.ts',
       'src/**/*.ts',
       '!src/**/*.spec.ts'
-    
+    ])
+    .pipe(sourcemaps.init())
+    .pipe(ts({
+      out: 'app.js'
+    }
