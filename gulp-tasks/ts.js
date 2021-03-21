@@ -14,4 +14,9 @@ gulp.task('ts', function () {
     .pipe(sourcemaps.init())
     .pipe(ts({
       out: 'app.js'
-    }
+    }))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(g.BUILD));
+});
+
+gulp.task('ts-spec', function () {
