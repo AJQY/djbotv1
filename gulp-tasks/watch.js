@@ -3,4 +3,6 @@ var g = require('./global.json');
 
 gulp.task('watch', function () {
 	gulp.watch(g.SRC + '**/*.html', ['concat-app-html']);
-	gulp.watc
+	gulp.watch(g.SRC + '**/*.ts', ['ts']);
+	gulp.watch(g.SRC + '**/*.less', ['concat-app-css']);
+	gulp.w
