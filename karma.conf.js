@@ -11,4 +11,7 @@ module.exports = function (config) {
       'build/app.js',
       'src/**/*.spec.ts'
     ],
-   
+    frameworks: ['jasmine'],
+    plugins: [
+      'karma-jasmine',
+      'karma-phanto
