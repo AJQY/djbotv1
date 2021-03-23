@@ -4,4 +4,7 @@ module.exports = function (config) {
     basePath: '',
     browsers: ['PhantomJS'],
     colors: true,
-    files:
+    files: [
+      'node_modules/mockfirebase/browser/mockfirebase.js',
+      'build/vendors.js',
+  
