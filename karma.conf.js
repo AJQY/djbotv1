@@ -1,3 +1,7 @@
 module.exports = function (config) {
   config.set({
-    autoWatch: fals
+    autoWatch: false,
+    basePath: '',
+    browsers: ['PhantomJS'],
+    colors: true,
+    files:
