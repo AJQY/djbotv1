@@ -17,4 +17,6 @@ module.exports = function (config) {
       'karma-phantomjs-launcher',
       'karma-coverage',
       'karma-coveralls',
-      'k
+      'karma-sauce-launcher'
+    ],
+    reporters: ['dots', 'saucelabs', 'coverage', '
