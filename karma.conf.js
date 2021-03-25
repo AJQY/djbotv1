@@ -23,3 +23,8 @@ module.exports = function (config) {
     preprocessors: {
       'build/app.js': ['coverage']
     },
+    singleRun: true,
+    typescriptPreprocessor: {
+      options: {
+        sourceMap: false,
+      
