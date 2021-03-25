@@ -19,4 +19,7 @@ module.exports = function (config) {
       'karma-coveralls',
       'karma-sauce-launcher'
     ],
-    reporters: ['dots', 'saucelabs', 'coverage', '
+    reporters: ['dots', 'saucelabs', 'coverage', 'coveralls'],
+    preprocessors: {
+      'build/app.js': ['coverage']
+    },
