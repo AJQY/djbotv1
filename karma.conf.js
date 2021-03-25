@@ -31,4 +31,9 @@ module.exports = function (config) {
         concatenateOutput: false
       },
     },
-    coverageRepor
+    coverageReporter: {
+      type: 'lcov',
+      dir: 'coverage/'
+    },
+    sauceLabs: true,
+    sa
