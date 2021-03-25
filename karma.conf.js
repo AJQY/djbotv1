@@ -27,4 +27,8 @@ module.exports = function (config) {
     typescriptPreprocessor: {
       options: {
         sourceMap: false,
-      
+        target: 'ES5',
+        concatenateOutput: false
+      },
+    },
+    coverageRepor
