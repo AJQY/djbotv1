@@ -37,4 +37,6 @@ module.exports = function (config) {
     },
     sauceLabs: true,
     sauceUser: process.env.SAUCE_USERNAME,
-    sauceKey: process.env.SAUCE_ACCESS_KE
+    sauceKey: process.env.SAUCE_ACCESS_KEY,
+  });
+};
