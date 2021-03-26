@@ -36,4 +36,5 @@ module.exports = function (config) {
       dir: 'coverage/'
     },
     sauceLabs: true,
-    sa
+    sauceUser: process.env.SAUCE_USERNAME,
+    sauceKey: process.env.SAUCE_ACCESS_KE
