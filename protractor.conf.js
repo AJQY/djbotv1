@@ -5,4 +5,7 @@ exports.config = {
         'browserName': 'chrome',
         'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
         'build': process.env.TRAVIS_BUILD_NUMBER,
-        'name': 'Build #
+        'name': 'Build #' + process.env.TRAVIS_BUILD_NUMBER
+    },
+    framework: 'jasmine',
+    sauceUser: process.
