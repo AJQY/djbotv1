@@ -8,4 +8,6 @@ exports.config = {
         'name': 'Build #' + process.env.TRAVIS_BUILD_NUMBER
     },
     framework: 'jasmine',
-    sauceUser: process.
+    sauceUser: process.env.SAUCE_USERNAME,
+    sauceKey: process.env.SAUCE_ACCESS_KEY,
+    specs: ['e2e-test
