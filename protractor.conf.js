@@ -16,4 +16,6 @@ exports.config = {
 
         element(by.model('ctrl.email')).sendKeys('a@a.com');
         element(by.model('ctrl.password')).sendKeys('a');
- 
+        element(by.buttonText('Log In')).click();
+
+        var dialog = elemen
