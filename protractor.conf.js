@@ -14,4 +14,6 @@ exports.config = {
     onPrepare: function () {
         browser.get('http://localhost:' + (process.env.PORT || 8000));
 
-        element(by.model('ctrl.email')).se
+        element(by.model('ctrl.email')).sendKeys('a@a.com');
+        element(by.model('ctrl.password')).sendKeys('a');
+ 
