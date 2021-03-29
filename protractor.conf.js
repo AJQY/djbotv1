@@ -12,4 +12,6 @@ exports.config = {
     sauceKey: process.env.SAUCE_ACCESS_KEY,
     specs: ['e2e-tests/**/*.spec.ts'],
     onPrepare: function () {
-        browser.get('http://localhost
+        browser.get('http://localhost:' + (process.env.PORT || 8000));
+
+        element(by.model('ctrl.email')).se
