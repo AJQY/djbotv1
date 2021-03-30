@@ -21,4 +21,9 @@ exports.config = {
         var dialog = element(by.tagName('md-dialog'));
         return browser.driver.wait(function () {
             return dialog.isPresent().then(function (present) {
-                return !present
+                return !present;
+            });
+        }, 10000);
+    },
+    jasmineNodeOpts: {
+        defaultTimeoutIn
