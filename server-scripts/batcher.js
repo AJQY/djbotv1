@@ -68,3 +68,20 @@ function getTime(timestamp, hours) {
   dateObj.setHours(hours);
   return dateObj.getTime();
 }
+
+//Batch the entries given into new elements, drop the old ones.
+function batch(ref, series) {
+  var entries = _.toArray(series.val());
+
+  for (var i = 0; i < entries.length; i += 15) {
+    ref.push(entries[i]);
+  }
+
+  series.forEach(function (serie) {
+    ref.child(serie.key()).remove();
+  });
+
+  console.log('batch');
+}
+
+module.exports.historicalBatch = historicalBatch;
