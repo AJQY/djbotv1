@@ -5,4 +5,7 @@ var FETCH_INTERVAL = 20 * 1000;
 
 //Node scripts
 var marketOpen = require('./market-open.js');
-var updatePortfolio = require('./u
+var updatePortfolio = require('./update-portfolio.js');
+
+//Initialize checker
+function ini
