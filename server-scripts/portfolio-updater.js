@@ -8,4 +8,9 @@ var marketOpen = require('./market-open.js');
 var updatePortfolio = require('./update-portfolio.js');
 
 //Initialize checker
-function ini
+function initialize() {
+	checkTime();
+	setInterval(checkTime, FETCH_INTERVAL);
+}
+
+//Check
