@@ -15,4 +15,8 @@ function initialize() {
 
 //Check the time
 function checkTime() {
-	var isMarketOpen = marketOpen.isMarketOpe
+	var isMarketOpen = marketOpen.isMarketOpen();
+
+	console.log('Checking time...', isMarketOpen);
+
+	if (!isUpdaterActive && is
