@@ -13,4 +13,6 @@ function initialize() {
 	setInterval(checkTime, FETCH_INTERVAL);
 }
 
-//Check
+//Check the time
+function checkTime() {
+	var isMarketOpen = marketOpen.isMarketOpe
