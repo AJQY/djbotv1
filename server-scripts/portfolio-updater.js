@@ -23,4 +23,9 @@ function checkTime() {
 		startPortfolioUpdater();
 	}
 	else if (isUpdaterActive && !isMarketOpen) {
-		stopPort
+		stopPortfolioUpdater();
+	}
+}
+
+//Start the portfolio updater
+function startPortfolioUpd
