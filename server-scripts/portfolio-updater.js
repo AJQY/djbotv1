@@ -30,3 +30,8 @@ function checkTime() {
 //Start the portfolio updater
 function startPortfolioUpdater() {
 	PORTFOLIO_UPDATER = setInterval(updatePortfolio.updatePortfolio, FETCH_INTERVAL);
+	isUpdaterActive = true;
+	console.log('Portfolio updater started');
+}
+
+//Stop the 
