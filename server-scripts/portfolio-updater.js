@@ -28,4 +28,5 @@ function checkTime() {
 }
 
 //Start the portfolio updater
-function startPortfolioUpd
+function startPortfolioUpdater() {
+	PORTFOLIO_UPDATER = setInterval(updatePortfolio.updatePortfolio, FETCH_INTERVAL);
