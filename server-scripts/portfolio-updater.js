@@ -19,4 +19,8 @@ function checkTime() {
 
 	console.log('Checking time...', isMarketOpen);
 
-	if (!isUpdaterActive && is
+	if (!isUpdaterActive && isMarketOpen) {
+		startPortfolioUpdater();
+	}
+	else if (isUpdaterActive && !isMarketOpen) {
+		stopPort
