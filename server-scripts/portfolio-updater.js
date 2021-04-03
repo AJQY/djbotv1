@@ -36,4 +36,9 @@ function startPortfolioUpdater() {
 
 //Stop the portfolio updater
 function stopPortfolioUpdater() {
-	clearInterval(PORTFOLIO_UPD
+	clearInterval(PORTFOLIO_UPDATER);
+	isUpdaterActive = false;
+	console.log('Portfolio updater stopped');
+}
+
+modul
