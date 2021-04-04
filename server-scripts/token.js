@@ -1,2 +1,3 @@
 var Q = require('q');
-var FirebaseTokenGen
+var FirebaseTokenGenerator = require('firebase-token-generator');
+var _ = require('lodash');
