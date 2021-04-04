@@ -41,4 +41,4 @@ function stopPortfolioUpdater() {
 	console.log('Portfolio updater stopped');
 }
 
-modul
+module.exports.initialize = initialize;
