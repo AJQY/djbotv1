@@ -13,4 +13,7 @@ function authenticate(ref, uid) {
 	else {
 		var options = {};
 		if (uid === 'admin') {
-	
+			options.admin = true;
+		}
+
+		var tokenGenerator = new FirebaseTokenGenerator(s
