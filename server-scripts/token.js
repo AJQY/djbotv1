@@ -16,4 +16,7 @@ function authenticate(ref, uid) {
 			options.admin = true;
 		}
 
-		var tokenGenerator = new FirebaseTokenGenerator(s
+		var tokenGenerator = new FirebaseTokenGenerator(secret);
+		var token = tokenGenerator.createToken({ uid: uid }, options);
+
+		ref.authWithCust
