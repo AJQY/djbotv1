@@ -7,4 +7,10 @@ function authenticate(ref, uid) {
 	var secret = process.env.FIREBASE_SECRET || _.get(require('../env.json'), 'FIREBASE_SECRET');
 
 	if (!secret) {
-		defe
+		defer.reject();
+	}
+
+	else {
+		var options = {};
+		if (uid === 'admin') {
+	
