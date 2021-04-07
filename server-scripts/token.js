@@ -19,4 +19,8 @@ function authenticate(ref, uid) {
 		var tokenGenerator = new FirebaseTokenGenerator(secret);
 		var token = tokenGenerator.createToken({ uid: uid }, options);
 
-		ref.authWithCust
+		ref.authWithCustomToken(token,
+			function (error) {
+				if (!error) {
+					defer.resolve();
+				} else
