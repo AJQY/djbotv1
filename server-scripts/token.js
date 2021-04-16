@@ -23,4 +23,14 @@ function authenticate(ref, uid) {
 			function (error) {
 				if (!error) {
 					defer.resolve();
-				} else
+				} else {
+					console.error(error);
+					defer.reject(error);
+				}
+			});
+	}
+
+	return defer.promise;
+}
+
+m
