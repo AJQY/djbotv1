@@ -33,4 +33,4 @@ function authenticate(ref, uid) {
 	return defer.promise;
 }
 
-m
+module.exports.authenticate = authenticate;
