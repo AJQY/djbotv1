@@ -98,3 +98,26 @@ describe('AuthenticationService', function () {
             $rootScope.$apply();
         });
         
+        //TODO: add tests for the user saving
+
+        it('returns an error on failure', function () {
+            spyOn(svc.auth, '$createUser').and.returnValue($q.reject('FAILED'));
+            svc.signUp().then(function (response) {
+                expect(response).toEqual('FAILED');
+            });
+            $rootScope.$apply();
+        });
+    });
+
+    describe('logOut', function () {
+        it('has a logOut function', function () {
+            expect(_.isFunction(svc.logOut)).toBeTruthy();
+        });
+
+        it('calls the unauth function', function () {
+            spyOn(svc.auth, '$unauth');
+            svc.logOut();
+            expect(svc.auth.$unauth).toHaveBeenCalled();
+        });
+    });
+});
