@@ -5,4 +5,6 @@
 * @description
 *
 * @requires $scope
-* @requ
+* @requires $mdDialog
+**/
+angular.module('RealTimeTrade').controller('LoadingCtrl', funct
