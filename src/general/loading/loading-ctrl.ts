@@ -7,4 +7,6 @@
 * @requires $scope
 * @requires $mdDialog
 **/
-angular.module('RealTimeTrade').controller('LoadingCtrl', funct
+angular.module('RealTimeTrade').controller('LoadingCtrl', function ($scope, $mdDialog) {
+    $mdDialog.show({
+        templateUrl: 'general/loading
