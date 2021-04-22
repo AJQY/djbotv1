@@ -9,4 +9,8 @@
 **/
 angular.module('RealTimeTrade').controller('LoadingCtrl', function ($scope, $mdDialog) {
     $mdDialog.show({
-        templateUrl: 'general/loading
+        templateUrl: 'general/loading/loading.html',
+        escapeToClose: false
+    });
+    
+    $scope.$on('$destroy',
