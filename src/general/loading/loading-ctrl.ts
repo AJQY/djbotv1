@@ -13,4 +13,7 @@ angular.module('RealTimeTrade').controller('LoadingCtrl', function ($scope, $mdD
         escapeToClose: false
     });
     
-    $scope.$on('$destroy',
+    $scope.$on('$destroy', function () {
+      $mdDialog.hide();
+    });
+});
