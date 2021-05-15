@@ -7,4 +7,8 @@ describe('Loading', function () {
         $scope = $rootScope.$new();
         $mdDialog = _$mdDialog_;
         elem = $compile('<loading></loading>')($scope);
-        $sco
+        $scope.$digest();
+    }));
+
+    describe('on destruction', function () {
+        it('hid
