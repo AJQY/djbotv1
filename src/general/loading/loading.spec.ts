@@ -11,4 +11,6 @@ describe('Loading', function () {
     }));
 
     describe('on destruction', function () {
-        it('hid
+        it('hides the dialog', function () {
+            spyOn($mdDialog, 'hide');
+            $scope.$destro
