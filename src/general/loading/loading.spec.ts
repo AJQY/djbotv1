@@ -5,4 +5,6 @@ describe('Loading', function () {
 
     beforeEach(inject(function ($compile, $rootScope, _$mdDialog_) {
         $scope = $rootScope.$new();
-        $mdDialo
+        $mdDialog = _$mdDialog_;
+        elem = $compile('<loading></loading>')($scope);
+        $sco
