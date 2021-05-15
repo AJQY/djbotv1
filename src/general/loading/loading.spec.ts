@@ -3,4 +3,6 @@ describe('Loading', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEach(inject(function ($compile, $rootS
+    beforeEach(inject(function ($compile, $rootScope, _$mdDialog_) {
+        $scope = $rootScope.$new();
+        $mdDialo
