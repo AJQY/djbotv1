@@ -13,4 +13,8 @@ describe('Loading', function () {
     describe('on destruction', function () {
         it('hides the dialog', function () {
             spyOn($mdDialog, 'hide');
-            $scope.$destro
+            $scope.$destroy();
+            expect($mdDialog.hide).toHaveBeenCalled();
+        });
+    });
+}
