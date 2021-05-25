@@ -17,4 +17,4 @@ describe('Loading', function () {
             expect($mdDialog.hide).toHaveBeenCalled();
         });
     });
-}
+});
