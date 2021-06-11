@@ -7,4 +7,5 @@ angular.module('RealTimeTrade').factory('ToastService', function ($mdToast) {
     });
   }
 
-  
+  return svc;
+});
