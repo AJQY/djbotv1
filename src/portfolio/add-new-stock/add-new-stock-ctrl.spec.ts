@@ -6,4 +6,5 @@ describe('AddNewStockCtrl', function () {
     });
 
     beforeEach(inject(function ($controller, _PortfolioService_) {
- 
+        ctrl = $controller('AddNewStockCtrl', {});
+        PortfolioService = _PortfolioS
