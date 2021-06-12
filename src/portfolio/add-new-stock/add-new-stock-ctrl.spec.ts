@@ -2,4 +2,8 @@ describe('AddNewStockCtrl', function () {
     var ctrl, PortfolioService;
 
     beforeEach(function () {
-        module('RealTimeT
+        module('RealTimeTrade');
+    });
+
+    beforeEach(inject(function ($controller, _PortfolioService_) {
+ 
