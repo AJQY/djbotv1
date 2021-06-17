@@ -11,4 +11,7 @@ describe('AddNewStockCtrl', function () {
     }));
 
     describe('addStock', function () {
-        it('has an addStock fu
+        it('has an addStock function', function () {
+            expect(_.isFunction(ctrl.addStock)).toBeTruthy();
+        });
+
