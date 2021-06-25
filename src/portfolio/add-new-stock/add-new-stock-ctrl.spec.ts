@@ -15,3 +15,4 @@ describe('AddNewStockCtrl', function () {
             expect(_.isFunction(ctrl.addStock)).toBeTruthy();
         });
 
+        it('calls the portfolio function and the close function', functi
