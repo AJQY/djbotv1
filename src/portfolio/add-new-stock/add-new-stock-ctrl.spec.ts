@@ -19,4 +19,9 @@ describe('AddNewStockCtrl', function () {
             spyOn(PortfolioService, 'addStock');
             spyOn(ctrl, 'close');
             ctrl.addStock();
-            expect(PortfolioService.addStock).toHa
+            expect(PortfolioService.addStock).toHaveBeenCalled();
+            expect(ctrl.close).toHaveBeenCalled();
+        });
+    });
+
+    de
