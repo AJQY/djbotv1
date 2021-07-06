@@ -17,4 +17,6 @@ describe('AddNewStockCtrl', function () {
 
         it('calls the portfolio function and the close function', function () {
             spyOn(PortfolioService, 'addStock');
-            spyOn(ctrl, 'close'
+            spyOn(ctrl, 'close');
+            ctrl.addStock();
+            expect(PortfolioService.addStock).toHa
