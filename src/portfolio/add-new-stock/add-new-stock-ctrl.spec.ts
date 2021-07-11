@@ -26,4 +26,7 @@ describe('AddNewStockCtrl', function () {
 
     describe('close', function () {
         it('has an close function', function () {
-   
+            expect(_.isFunction(ctrl.close)).toBeTruthy();
+        });
+
+        it('nullifies the stoc
