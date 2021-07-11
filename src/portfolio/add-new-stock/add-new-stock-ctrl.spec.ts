@@ -24,4 +24,6 @@ describe('AddNewStockCtrl', function () {
         });
     });
 
-    de
+    describe('close', function () {
+        it('has an close function', function () {
+   
