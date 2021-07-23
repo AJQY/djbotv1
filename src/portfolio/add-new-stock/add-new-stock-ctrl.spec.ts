@@ -29,4 +29,6 @@ describe('AddNewStockCtrl', function () {
             expect(_.isFunction(ctrl.close)).toBeTruthy();
         });
 
-        it('nullifies the stoc
+        it('nullifies the stock value and closes the dropdown', function () {
+            ctrl.isOpen = true;
+  
