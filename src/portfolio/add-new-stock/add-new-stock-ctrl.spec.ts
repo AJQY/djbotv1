@@ -31,4 +31,6 @@ describe('AddNewStockCtrl', function () {
 
         it('nullifies the stock value and closes the dropdown', function () {
             ctrl.isOpen = true;
-  
+            ctrl.newStock = 'AAA';
+            ctrl.close();
+            
