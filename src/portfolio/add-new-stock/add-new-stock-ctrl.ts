@@ -5,4 +5,6 @@
 * @description
 *
 * @requires PortfolioService
-* @requires AddNew
+* @requires AddNewStockService
+**/
+angular.module('RealTimeTrade').controller('AddNewStockCtrl', functio
