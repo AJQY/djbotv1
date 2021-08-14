@@ -36,4 +36,5 @@ describe('AddNewStockCtrl', function () {
             expect(ctrl.isOpen).toBeFalsy();
             expect(ctrl.newStock).toBeNull();
         });
-  
+    });
+});
