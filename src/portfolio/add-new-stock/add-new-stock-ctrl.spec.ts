@@ -33,4 +33,7 @@ describe('AddNewStockCtrl', function () {
             ctrl.isOpen = true;
             ctrl.newStock = 'AAA';
             ctrl.close();
-            
+            expect(ctrl.isOpen).toBeFalsy();
+            expect(ctrl.newStock).toBeNull();
+        });
+  
