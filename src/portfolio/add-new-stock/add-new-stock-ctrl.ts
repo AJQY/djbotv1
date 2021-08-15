@@ -13,4 +13,6 @@ angular.module('RealTimeTrade').controller('AddNewStockCtrl', function (Portfoli
     ctrl.getStocks = AddNewStockService.getStocks;
     ctrl.unescape = he.decode;
 
-    ctrl.addSt
+    ctrl.addStock = function (stock) {
+        PortfolioService.addStock(stock);
+  
