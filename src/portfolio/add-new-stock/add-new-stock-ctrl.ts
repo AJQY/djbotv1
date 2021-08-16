@@ -19,4 +19,7 @@ angular.module('RealTimeTrade').controller('AddNewStockCtrl', function (Portfoli
     };
 
     ctrl.close = function () {
-        ctrl.isOpen = false
+        ctrl.isOpen = false;
+        ctrl.newStock = null;
+    };
+});
