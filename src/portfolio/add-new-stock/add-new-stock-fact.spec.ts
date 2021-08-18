@@ -3,4 +3,7 @@ describe('AddNewStockService', function () {
 
     beforeEach(function () {
         module('RealTimeTrade');
-    })
+    });
+
+    beforeEach(inject(function (_AddNewStockService_, _$httpBackend_) {
+        svc = _AddNewSt
