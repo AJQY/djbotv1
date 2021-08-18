@@ -6,4 +6,8 @@ describe('AddNewStockService', function () {
     });
 
     beforeEach(inject(function (_AddNewStockService_, _$httpBackend_) {
-        svc = _AddNewSt
+        svc = _AddNewStockService_;
+        $httpBackend = _$httpBackend_;
+    }));
+
+    describe('getStocks', functi
