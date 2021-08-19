@@ -10,4 +10,7 @@ describe('AddNewStockService', function () {
         $httpBackend = _$httpBackend_;
     }));
 
-    describe('getStocks', functi
+    describe('getStocks', function () {
+        beforeEach(function () {
+            $httpBackend
+                .when('JSONP', '//d.yimg.c
