@@ -14,4 +14,7 @@ describe('AddNewStockService', function () {
         beforeEach(function () {
             $httpBackend
                 .when('JSONP', '//d.yimg.com/aq/autoc?callback=JSON_CALLBACK&lang=en-US&query=F&region=US')
-          
+                .respond({
+                    ResultSet: {
+                        Result: [
+       
