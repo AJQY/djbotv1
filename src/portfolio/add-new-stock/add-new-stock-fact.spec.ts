@@ -17,4 +17,6 @@ describe('AddNewStockService', function () {
                 .respond({
                     ResultSet: {
                         Result: [
-       
+                            {
+                                ticker: 'GOOG',
+               
