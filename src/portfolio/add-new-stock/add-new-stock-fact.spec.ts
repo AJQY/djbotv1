@@ -21,4 +21,6 @@ describe('AddNewStockService', function () {
                                 ticker: 'GOOG',
                                 exchDisp: 'RANDOM'
                             },
-                    
+                            {
+                                ticker: 'AAPL',
+                 
