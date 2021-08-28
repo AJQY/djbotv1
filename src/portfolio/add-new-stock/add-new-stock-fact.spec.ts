@@ -29,4 +29,6 @@ describe('AddNewStockService', function () {
                                 ticker: 'F',
                                 exchDisp: 'NYSE'
                             },
-                            
+                            {
+                                ticker: 'YHOO',
+                          
