@@ -23,4 +23,6 @@ describe('AddNewStockService', function () {
                             },
                             {
                                 ticker: 'AAPL',
-                 
+                                exchDisp: 'NASDAQ'
+                            },
+            
