@@ -34,3 +34,8 @@ describe('AddNewStockService', function () {
                                 exchDisp: 'AAA'
                             }
                         ]
+                    }
+                });
+        });
+
+        it('should have an getSto
