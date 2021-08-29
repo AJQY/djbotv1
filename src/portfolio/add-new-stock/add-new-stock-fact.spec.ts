@@ -31,4 +31,6 @@ describe('AddNewStockService', function () {
                             },
                             {
                                 ticker: 'YHOO',
-                          
+                                exchDisp: 'AAA'
+                            }
+                        ]
