@@ -38,4 +38,5 @@ describe('AddNewStockService', function () {
                 });
         });
 
-        it('should have an getSto
+        it('should have an getStocks function', function () {
+            expect(_.isFunction(svc.getStocks)).toBeTruthy();
