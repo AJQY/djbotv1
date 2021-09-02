@@ -40,3 +40,7 @@ describe('AddNewStockService', function () {
 
         it('should have an getStocks function', function () {
             expect(_.isFunction(svc.getStocks)).toBeTruthy();
+        });
+
+        it('should call into yahoo images', function () {
+            svc.getStocks('F'
