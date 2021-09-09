@@ -45,4 +45,7 @@ describe('AddNewStockService', function () {
         it('should call into yahoo images', function () {
             svc.getStocks('F');
             $httpBackend.flush();
-            $httpBackend.expectJSONP('//d.yimg.com/aq/a
+            $httpBackend.expectJSONP('//d.yimg.com/aq/autoc?callback=JSON_CALLBACK&lang=en-US&query=F&region=US');
+        });
+
+      
