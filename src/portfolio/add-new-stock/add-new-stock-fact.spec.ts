@@ -48,4 +48,5 @@ describe('AddNewStockService', function () {
             $httpBackend.expectJSONP('//d.yimg.com/aq/autoc?callback=JSON_CALLBACK&lang=en-US&query=F&region=US');
         });
 
-      
+        it('should filter out the results', function () {
+            svc.getStocks('F').then(func
