@@ -52,4 +52,6 @@ describe('AddNewStockService', function () {
             svc.getStocks('F').then(function (stocks) {
                 expect(stocks).toEqual([
                     {
-                
+                        ticker: 'AAPL',
+                        exchDisp: 'NASDAQ'
+               
