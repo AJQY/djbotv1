@@ -49,4 +49,7 @@ describe('AddNewStockService', function () {
         });
 
         it('should filter out the results', function () {
-            svc.getStocks('F').then(func
+            svc.getStocks('F').then(function (stocks) {
+                expect(stocks).toEqual([
+                    {
+                
