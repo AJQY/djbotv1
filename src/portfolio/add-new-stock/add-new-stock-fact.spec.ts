@@ -61,3 +61,7 @@ describe('AddNewStockService', function () {
                     }
                 ]);
             });
+            $httpBackend.flush();
+        });
+    });
+});
