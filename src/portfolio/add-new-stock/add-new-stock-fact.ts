@@ -11,3 +11,6 @@ angular.module('RealTimeTrade').factory('AddNewStockService', function ($http, $
         lang: 'en-US',
         callback: 'JSON_CALLBACK'
       },
+      cache: true
+    }).then(function (response) {
+      return _.filter(response.data
