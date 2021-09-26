@@ -7,4 +7,7 @@ angular.module('RealTimeTrade').factory('AddNewStockService', function ($http, $
       url: '//d.yimg.com/aq/autoc',
       params: {
         query: query,
-    
+        region: 'US',
+        lang: 'en-US',
+        callback: 'JSON_CALLBACK'
+      },
