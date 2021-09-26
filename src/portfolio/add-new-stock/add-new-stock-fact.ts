@@ -3,4 +3,8 @@ angular.module('RealTimeTrade').factory('AddNewStockService', function ($http, $
 
   svc.getStocks = function (query) {
     return $http({
-      method: 'JSONP'
+      method: 'JSONP',
+      url: '//d.yimg.com/aq/autoc',
+      params: {
+        query: query,
+    
