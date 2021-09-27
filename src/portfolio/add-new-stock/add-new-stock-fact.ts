@@ -14,4 +14,10 @@ angular.module('RealTimeTrade').factory('AddNewStockService', function ($http, $
       cache: true
     }).then(function (response) {
       return _.filter(response.data.ResultSet.Result, function(item) {
-          return item.exchDisp === 'NASDAQ' || item.exchDisp === '
+          return item.exchDisp === 'NASDAQ' || item.exchDisp === 'NYSE'
+      });
+    });
+  };
+
+  return svc;
+});
