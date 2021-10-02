@@ -7,4 +7,5 @@
     md-item-text="item.name" md-autoselect="true" md-delay="100" md-menu-class="add-new-stocks-autocomplete" placeholder="Pick a stock"
     md-autofocus>
       <md-item-template>
-        <span md-highlight-text="$ctrl.newStock.searchText" md-highlight-
+        <span md-highlight-text="$ctrl.newStock.searchText" md-highlight-flags="i" class="item-title truncate">
+           {{::$ctrl.unescape(item.
