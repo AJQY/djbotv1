@@ -3,4 +3,5 @@
   <form ng-if="$ctrl.isOpen" layout class="fade">
 
     <!-- Stock selection -->
-    <md-autocomplete flex="35" md-selected-item="$ctrl.newStock.stock" md-search-text="$ctrl.newStock.searchText" md-items="item in $ctrl.getStocks($ctrl.newStock
+    <md-autocomplete flex="35" md-selected-item="$ctrl.newStock.stock" md-search-text="$ctrl.newStock.searchText" md-items="item in $ctrl.getStocks($ctrl.newStock.searchText)"
+    md-item-text="item.name" md-autoselect="true" md-delay="100" md-menu-class="add-new-sto
