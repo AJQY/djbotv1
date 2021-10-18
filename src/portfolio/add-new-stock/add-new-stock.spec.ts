@@ -3,4 +3,6 @@ describe('AddNewStock', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    bef
+    beforeEach(inject(function ($compile, $rootScope) {
+        $scope = $rootScope.$new();
+        elem
