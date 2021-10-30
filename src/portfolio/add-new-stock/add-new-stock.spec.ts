@@ -10,4 +10,8 @@ describe('AddNewStock', function () {
     }));
 
     describe('initialization', function () {
-        it('creates the element', 
+        it('creates the element', function () {
+            expect(elem).toBeDefined();
+        });
+    });
+});
