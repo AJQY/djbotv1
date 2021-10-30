@@ -5,4 +5,6 @@ describe('AddNewStock', function () {
 
     beforeEach(inject(function ($compile, $rootScope) {
         $scope = $rootScope.$new();
-        elem
+        elem = $compile('<add-new-stock></add-new-stock>')($scope);
+        $scope.$digest();
+    }
