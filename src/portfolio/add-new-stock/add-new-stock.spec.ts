@@ -7,4 +7,7 @@ describe('AddNewStock', function () {
         $scope = $rootScope.$new();
         elem = $compile('<add-new-stock></add-new-stock>')($scope);
         $scope.$digest();
-    }
+    }));
+
+    describe('initialization', function () {
+        it('creates the element', 
