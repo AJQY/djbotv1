@@ -6,4 +6,6 @@
 *
 * @description
 **/
-angular.module('RealTimeTrade').componen
+angular.module('RealTimeTrade').component('addNewStock', {
+  controller: 'AddNewStockCtrl',
+  templateUrl: 'portfolio/a
