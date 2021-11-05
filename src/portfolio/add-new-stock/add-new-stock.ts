@@ -8,4 +8,5 @@
 **/
 angular.module('RealTimeTrade').component('addNewStock', {
   controller: 'AddNewStockCtrl',
-  templateUrl: 'portfolio/a
+  templateUrl: 'portfolio/add-new-stock/add-new-stock.html'
+});
