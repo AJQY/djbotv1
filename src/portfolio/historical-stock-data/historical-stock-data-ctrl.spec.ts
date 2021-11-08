@@ -53,3 +53,4 @@ describe('HistoricalStockDataCtrl', function () {
             expect(ctrl.chart.reflow).toHaveBeenCalled();
         });
     });
+});
