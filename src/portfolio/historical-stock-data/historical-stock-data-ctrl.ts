@@ -2,4 +2,8 @@
 * @ngdoc controller
 * @name RealTimeTrade.controller:HistoricalStockDataCtrl
 *
-* @descripti
+* @description
+*
+* @requires HistoricalStockDataService
+**/
+angular.module('RealTimeTrade').controller('Hi
