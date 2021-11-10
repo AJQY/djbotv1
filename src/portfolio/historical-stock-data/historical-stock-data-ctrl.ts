@@ -6,4 +6,5 @@
 *
 * @requires HistoricalStockDataService
 **/
-angular.module('RealTimeTrade').controller('Hi
+angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (HistoricalStockDataService) {
+    var ctrl =
