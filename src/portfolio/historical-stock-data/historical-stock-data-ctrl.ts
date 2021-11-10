@@ -7,4 +7,9 @@
 * @requires HistoricalStockDataService
 **/
 angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (HistoricalStockDataService) {
-    var ctrl =
+    var ctrl = this;
+    
+    ctrl.chartOptions = {
+        chart: {
+            height: 50,
+            styl
