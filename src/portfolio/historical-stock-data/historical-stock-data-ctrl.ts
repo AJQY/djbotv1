@@ -12,4 +12,7 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
     ctrl.chartOptions = {
         chart: {
             height: 50,
-            styl
+            style: {
+                fontFamily: [
+                    'Roboto',
+                    'Hel
