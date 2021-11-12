@@ -15,4 +15,8 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
             style: {
                 fontFamily: [
                     'Roboto',
-                    'Hel
+                    'Helvetica Neue',
+                    'sans-serif'
+                ]
+            }
+  
