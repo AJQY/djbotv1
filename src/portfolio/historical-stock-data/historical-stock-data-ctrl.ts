@@ -23,4 +23,8 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
         credits: {
             enabled: false
         },
-        navigator: f
+        navigator: false,
+        rangeSelector: false,
+        series: [],
+        scrollbar : {
+   
