@@ -19,4 +19,8 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
                     'sans-serif'
                 ]
             }
-  
+        },
+        credits: {
+            enabled: false
+        },
+        navigator: f
