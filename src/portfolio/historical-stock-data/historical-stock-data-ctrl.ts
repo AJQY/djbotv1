@@ -27,4 +27,8 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
         rangeSelector: false,
         series: [],
         scrollbar : {
+            enabled : false
+        },
+        tooltip: {
+            valueDecimals: 2,
    
