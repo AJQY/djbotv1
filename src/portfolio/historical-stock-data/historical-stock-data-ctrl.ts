@@ -31,4 +31,7 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
         },
         tooltip: {
             valueDecimals: 2,
-   
+            valuePrefix: '$'
+        },
+        xAxis: {
+            visible: fa
