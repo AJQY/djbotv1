@@ -41,4 +41,5 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
         }
     };
 
-  
+    if (_.isString(ctrl.symbol) && ctrl.symbol.length && ctrl.symbol.length < 6) {
+        Hist
