@@ -34,4 +34,11 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
             valuePrefix: '$'
         },
         xAxis: {
-            visible: fa
+            visible: false
+        },
+        yAxis: {
+            visible: false
+        }
+    };
+
+  
