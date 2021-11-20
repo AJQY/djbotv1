@@ -46,4 +46,7 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
             .then(function (chartData) {
                 ctrl.chart.addSeries({
                     name: ctrl.symbol,
-             
+                    data: chartData
+                });
+            })
+            .finally(function() 
