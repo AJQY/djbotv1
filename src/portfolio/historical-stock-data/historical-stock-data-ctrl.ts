@@ -43,4 +43,7 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
 
     if (_.isString(ctrl.symbol) && ctrl.symbol.length && ctrl.symbol.length < 6) {
         HistoricalStockDataService.getHistoricalStockValues(ctrl.symbol)
-            .then(function (chartData
+            .then(function (chartData) {
+                ctrl.chart.addSeries({
+                    name: ctrl.symbol,
+             
