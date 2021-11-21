@@ -49,4 +49,7 @@ angular.module('RealTimeTrade').controller('HistoricalStockDataCtrl', function (
                     data: chartData
                 });
             })
-            .finally(function() 
+            .finally(function() {
+                ctrl.chart.hideLoading(); 
+                ctrl.chart.reflow();
+            }
