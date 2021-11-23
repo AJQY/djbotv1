@@ -5,4 +5,6 @@
 * @element historical-stock-data
 * @scope
 *
-*
+* @description
+**/
+angular.module('RealTimeTrade').directive('historicalStockData', function (
