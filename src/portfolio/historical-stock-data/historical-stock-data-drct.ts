@@ -7,4 +7,7 @@
 *
 * @description
 **/
-angular.module('RealTimeTrade').directive('historicalStockData', function (
+angular.module('RealTimeTrade').directive('historicalStockData', function () {
+  return {
+    restrict: 'E',
+    controller: 'HistoricalStockDataC
