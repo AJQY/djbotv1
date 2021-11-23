@@ -1,3 +1,8 @@
 /**
 * @ngdoc directive
-* @name RealTimeTrade.
+* @name RealTimeTrade.directive:historicalStockData
+* @restrict E
+* @element historical-stock-data
+* @scope
+*
+*
