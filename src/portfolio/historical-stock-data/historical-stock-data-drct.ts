@@ -14,3 +14,7 @@ angular.module('RealTimeTrade').directive('historicalStockData', function () {
     controllerAs: 'ctrl',
     bindToController: true,
     scope: {
+      symbol: '@'
+    },
+    template: '<div></div>',
+    link: func
