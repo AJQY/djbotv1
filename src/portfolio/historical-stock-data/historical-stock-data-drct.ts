@@ -10,4 +10,7 @@
 angular.module('RealTimeTrade').directive('historicalStockData', function () {
   return {
     restrict: 'E',
-    controller: 'HistoricalStockDataC
+    controller: 'HistoricalStockDataCtrl',
+    controllerAs: 'ctrl',
+    bindToController: true,
+    scope: {
