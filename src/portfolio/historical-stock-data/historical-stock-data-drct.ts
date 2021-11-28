@@ -18,4 +18,6 @@ angular.module('RealTimeTrade').directive('historicalStockData', function () {
     },
     template: '<div></div>',
     link: function (scope, element, attrs, ctrl) {
-      ctrl.chartOptions.chart.renderTo = element.fi
+      ctrl.chartOptions.chart.renderTo = element.find('DIV')[0];
+      ctrl.chart = new Highcharts.StockChart(ctrl.chartOptions);
+      ct
