@@ -17,4 +17,5 @@ angular.module('RealTimeTrade').directive('historicalStockData', function () {
       symbol: '@'
     },
     template: '<div></div>',
-    link: func
+    link: function (scope, element, attrs, ctrl) {
+      ctrl.chartOptions.chart.renderTo = element.fi
