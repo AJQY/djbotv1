@@ -20,4 +20,7 @@ angular.module('RealTimeTrade').directive('historicalStockData', function () {
     link: function (scope, element, attrs, ctrl) {
       ctrl.chartOptions.chart.renderTo = element.find('DIV')[0];
       ctrl.chart = new Highcharts.StockChart(ctrl.chartOptions);
-      ct
+      ctrl.chart.showLoading();
+    }
+  };
+});

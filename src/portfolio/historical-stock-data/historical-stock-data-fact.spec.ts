@@ -1,0 +1,2 @@
+describe('HistoricalStockDataService', function () {
+    
