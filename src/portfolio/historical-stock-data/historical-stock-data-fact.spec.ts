@@ -5,4 +5,5 @@ describe('HistoricalStockDataService', function () {
         module('RealTimeTrade');
     });
 
-    beforeEach(inject(function (HistoricalS
+    beforeEach(inject(function (HistoricalStockDataService, _$q_, _$rootScope_, _$httpBackend_) {
+        svc = HistoricalSto
