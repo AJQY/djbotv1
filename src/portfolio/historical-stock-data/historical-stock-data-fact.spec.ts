@@ -9,4 +9,8 @@ describe('HistoricalStockDataService', function () {
         svc = HistoricalStockDataService;
         $q = _$q_;
         $rootScope = _$rootScope_;
-        $httpBackend =
+        $httpBackend = _$httpBackend_;
+        
+        $httpBackend
+            .when('GET')
+            .respo
