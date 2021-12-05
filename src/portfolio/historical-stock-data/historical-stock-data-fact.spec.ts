@@ -13,4 +13,7 @@ describe('HistoricalStockDataService', function () {
         
         $httpBackend
             .when('GET')
-            .respo
+            .respond({
+                dataset: {
+                    data: [
+               
