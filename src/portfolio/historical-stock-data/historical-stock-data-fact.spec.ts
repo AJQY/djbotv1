@@ -18,4 +18,7 @@ describe('HistoricalStockDataService', function () {
                     data: [
                         ["2016-01-05", 102.89],
                         ["2016-01-04", 101.95],
+                        ["2015-12-31", 106]
+                    ]
+                }
         
