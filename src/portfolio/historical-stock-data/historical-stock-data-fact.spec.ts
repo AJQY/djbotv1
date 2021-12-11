@@ -16,4 +16,6 @@ describe('HistoricalStockDataService', function () {
             .respond({
                 dataset: {
                     data: [
-               
+                        ["2016-01-05", 102.89],
+                        ["2016-01-04", 101.95],
+        
