@@ -25,4 +25,5 @@ describe('HistoricalStockDataService', function () {
     }));
     
     describe('getHistoricalStockValues', function () {
-        it('has a getHi
+        it('has a getHistoricalStockValues function', function () {
+            expect(_.isFunction(svc.ge
