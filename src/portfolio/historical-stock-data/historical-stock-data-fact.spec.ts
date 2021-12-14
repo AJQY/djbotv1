@@ -21,4 +21,8 @@ describe('HistoricalStockDataService', function () {
                         ["2015-12-31", 106]
                     ]
                 }
-        
+            });
+    }));
+    
+    describe('getHistoricalStockValues', function () {
+        it('has a getHi
