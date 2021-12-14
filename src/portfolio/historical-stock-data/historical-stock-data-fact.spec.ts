@@ -26,4 +26,7 @@ describe('HistoricalStockDataService', function () {
     
     describe('getHistoricalStockValues', function () {
         it('has a getHistoricalStockValues function', function () {
-            expect(_.isFunction(svc.ge
+            expect(_.isFunction(svc.getHistoricalStockValues)).toBeTruthy();
+        });
+        
+        it('returns for b
