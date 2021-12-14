@@ -29,4 +29,6 @@ describe('HistoricalStockDataService', function () {
             expect(_.isFunction(svc.getHistoricalStockValues)).toBeTruthy();
         });
         
-        it('returns for b
+        it('returns for bad input', function () {
+            expect(svc.getHistoricalStockValues()).toBeUndefined();
+ 
