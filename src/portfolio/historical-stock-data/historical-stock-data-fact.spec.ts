@@ -34,4 +34,6 @@ describe('HistoricalStockDataService', function () {
             expect(svc.getHistoricalStockValues(2)).toBeUndefined();
             expect(svc.getHistoricalStockValues({symbol: 'AAPL'})).toBeUndefined();
             expect(svc.getHistoricalStockValues(['AAPL'])).toBeUndefined();
- 
+        });
+        
+        it('calls into the http service', function () {
