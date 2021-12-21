@@ -36,4 +36,6 @@ describe('HistoricalStockDataService', function () {
             expect(svc.getHistoricalStockValues(['AAPL'])).toBeUndefined();
         });
         
-        it('calls into the http service', function () {
+        it('calls into the http service', function () {                
+            svc.getHistoricalStockValues('AAPL');
+            $h
