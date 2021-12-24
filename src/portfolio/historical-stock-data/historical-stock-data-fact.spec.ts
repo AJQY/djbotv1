@@ -42,4 +42,5 @@ describe('HistoricalStockDataService', function () {
             $httpBackend.expectGET();
         });
         
-        i
+        it('maps the response from the http service', function () {
+            svc.get
