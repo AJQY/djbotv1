@@ -38,4 +38,8 @@ describe('HistoricalStockDataService', function () {
         
         it('calls into the http service', function () {                
             svc.getHistoricalStockValues('AAPL');
-            $h
+            $httpBackend.flush();
+            $httpBackend.expectGET();
+        });
+        
+        i
