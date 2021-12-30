@@ -43,4 +43,6 @@ describe('HistoricalStockDataService', function () {
         });
         
         it('maps the response from the http service', function () {
-            svc.get
+            svc.getHistoricalStockValues('AAPL')
+                .then(function(response) {
+                    
