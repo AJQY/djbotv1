@@ -45,4 +45,4 @@ describe('HistoricalStockDataService', function () {
         it('maps the response from the http service', function () {
             svc.getHistoricalStockValues('AAPL')
                 .then(function(response) {
-                    
+                    expect(response).toEqual([[1451520000000, 106], [1451865600000, 101.95], [14519520000
