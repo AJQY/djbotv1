@@ -1,2 +1,5 @@
 describe('PortfolioCtrl', function () {
-    var ctrl, createContr
+    var ctrl, createController, getPortfolioSpy;
+
+    beforeEach(function () {
+        module('RealTim
