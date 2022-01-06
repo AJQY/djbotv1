@@ -5,4 +5,6 @@ describe('PortfolioCtrl', function () {
         module('RealTimeTrade');
     });
 
-    beforeEach(inject(function ($controller, $rootScope, PortfolioService, Authenticatio
+    beforeEach(inject(function ($controller, $rootScope, PortfolioService, AuthenticationService) {
+        spyOn(AuthenticationService, 'getUserID').and.returnValue(0);
+  
