@@ -2,4 +2,7 @@ describe('PortfolioCtrl', function () {
     var ctrl, createController, getPortfolioSpy;
 
     beforeEach(function () {
-        module('RealTim
+        module('RealTimeTrade');
+    });
+
+    beforeEach(inject(function ($controller, $rootScope, PortfolioService, Authenticatio
