@@ -10,4 +10,5 @@ describe('PortfolioCtrl', function () {
         getPortfolioSpy = spyOn(PortfolioService, 'getPortfolio').and.returnValue({
             $loaded: function (callback) { callback(); }
         });
-        createController 
+        createController = function () {
+            ctrl = $controller('PortfolioCtrl', { $scope: $rootScope.$new
