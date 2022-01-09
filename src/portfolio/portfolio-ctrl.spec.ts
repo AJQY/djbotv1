@@ -16,4 +16,5 @@ describe('PortfolioCtrl', function () {
     }));
 
     describe('it hooks into services', function () {
-        
+        it('calls the getPortfolio function', function () {
+            expect(getPort
