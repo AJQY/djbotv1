@@ -11,4 +11,9 @@ describe('PortfolioCtrl', function () {
             $loaded: function (callback) { callback(); }
         });
         createController = function () {
-            ctrl = $controller('PortfolioCtrl', { $scope: $rootScope.$new
+            ctrl = $controller('PortfolioCtrl', { $scope: $rootScope.$new() });
+        };
+    }));
+
+    describe('it hooks into services', function () {
+        
