@@ -19,4 +19,7 @@ describe('PortfolioCtrl', function () {
         it('calls the getPortfolio function', function () {
             expect(getPortfolioSpy).not.toHaveBeenCalled();
             createController();
-         
+            expect(getPortfolioSpy).toHaveBeenCalled();
+        });
+
+        it('sets the
