@@ -22,4 +22,5 @@ describe('PortfolioCtrl', function () {
             expect(getPortfolioSpy).toHaveBeenCalled();
         });
 
-        it('sets the
+        it('sets the controller functions after getPortfolio resolves', function () {
+            createCo
