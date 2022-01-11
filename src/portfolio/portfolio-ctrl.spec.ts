@@ -23,4 +23,6 @@ describe('PortfolioCtrl', function () {
         });
 
         it('sets the controller functions after getPortfolio resolves', function () {
-            createCo
+            createController();
+            expect(ctrl.isLoaded).toBeTruthy();
+            expect(_.isFunction
