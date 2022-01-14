@@ -1,3 +1,8 @@
 /**
 * @ngdoc controller
-* @name RealTimeTrade.cont
+* @name RealTimeTrade.controller:PortfolioCtrl
+*
+* @description
+*
+* @requires AuthenticationService
+*
