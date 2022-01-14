@@ -26,4 +26,7 @@ describe('PortfolioCtrl', function () {
             createController();
             expect(ctrl.isLoaded).toBeTruthy();
             expect(_.isFunction(ctrl.deleteStock)).toBeTruthy();
-            expect(_.isFunction(ctrl.getMax)
+            expect(_.isFunction(ctrl.getMax)).toBeTruthy();
+        });
+    });
+});
