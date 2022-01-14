@@ -5,4 +5,6 @@
 * @description
 *
 * @requires AuthenticationService
-*
+* @requires PortfolioService
+**/
+angular.module('RealTimeTrade').controller('Portfolio
