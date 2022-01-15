@@ -12,4 +12,6 @@ angular.module('RealTimeTrade').controller('PortfolioCtrl', function (Authentica
 
     //Get portfolio
     var uid = AuthenticationService.getUserID();
-    ctrl.portfolio = PortfolioService.get
+    ctrl.portfolio = PortfolioService.getPortfolio(uid);
+    ctrl.deleteStock = PortfolioService.deleteStock;
+ 
