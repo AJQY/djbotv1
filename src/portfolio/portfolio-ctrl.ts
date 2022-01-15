@@ -7,4 +7,7 @@
 * @requires AuthenticationService
 * @requires PortfolioService
 **/
-angular.module('RealTimeTrade').controller('Portfolio
+angular.module('RealTimeTrade').controller('PortfolioCtrl', function (AuthenticationService, PortfolioService) {
+    var ctrl = this;
+
+    //Get po
