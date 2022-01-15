@@ -10,4 +10,6 @@
 angular.module('RealTimeTrade').controller('PortfolioCtrl', function (AuthenticationService, PortfolioService) {
     var ctrl = this;
 
-    //Get po
+    //Get portfolio
+    var uid = AuthenticationService.getUserID();
+    ctrl.portfolio = PortfolioService.get
