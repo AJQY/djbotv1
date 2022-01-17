@@ -14,4 +14,6 @@ angular.module('RealTimeTrade').controller('PortfolioCtrl', function (Authentica
     var uid = AuthenticationService.getUserID();
     ctrl.portfolio = PortfolioService.getPortfolio(uid);
     ctrl.deleteStock = PortfolioService.deleteStock;
- 
+    ctrl.getMax = PortfolioService.getUnusedPercentage;
+        
+    //Stop loading when
