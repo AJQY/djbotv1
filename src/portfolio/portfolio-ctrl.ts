@@ -18,4 +18,6 @@ angular.module('RealTimeTrade').controller('PortfolioCtrl', function (Authentica
         
     //Stop loading when the portfolio finishes
     ctrl.portfolio.$loaded(function () {
-        
+        ctrl.isLoaded = true;
+    });
+});
