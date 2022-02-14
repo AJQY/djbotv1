@@ -4,3 +4,6 @@ describe('PortfolioService', function () {
     beforeEach(function () {
         module('RealTimeTrade');
     });
+
+    beforeEach(inject(function (_$rootScope_, _PortfolioService_, _$q_, _$mdDialog_) {
+    
