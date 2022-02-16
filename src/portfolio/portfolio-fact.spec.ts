@@ -6,4 +6,6 @@ describe('PortfolioService', function () {
     });
 
     beforeEach(inject(function (_$rootScope_, _PortfolioService_, _$q_, _$mdDialog_) {
-    
+        svc = _PortfolioService_;
+        $rootScope = _$rootScope_;
+        $mdDialog =
