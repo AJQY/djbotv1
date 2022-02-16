@@ -8,4 +8,8 @@ describe('PortfolioService', function () {
     beforeEach(inject(function (_$rootScope_, _PortfolioService_, _$q_, _$mdDialog_) {
         svc = _PortfolioService_;
         $rootScope = _$rootScope_;
-        $mdDialog =
+        $mdDialog = _$mdDialog_;
+        $q = _$q_;
+        
+        //Mock out the firebase array
+  
