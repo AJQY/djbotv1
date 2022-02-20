@@ -18,4 +18,5 @@ describe('PortfolioService', function () {
         svc.portfolio.$remove = _.noop;
     }));
 
-    describ
+    describe('getPortfolio', function () {
+        it('should have an getPortfolio function', functio
