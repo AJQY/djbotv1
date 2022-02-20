@@ -14,4 +14,8 @@ describe('PortfolioService', function () {
         //Mock out the firebase array
         svc.portfolio = [{ symbol: 'AAPL', percentage: '40' }];
         svc.portfolio.$add = _.noop;
-    
+        svc.portfolio.$save = _.noop;
+        svc.portfolio.$remove = _.noop;
+    }));
+
+    describ
