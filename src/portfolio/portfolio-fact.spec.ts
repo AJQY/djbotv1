@@ -24,4 +24,8 @@ describe('PortfolioService', function () {
         });
     });
 
-    d
+    describe('addStock', function () {
+        var spy;
+
+        beforeEach(function () {
+ 
