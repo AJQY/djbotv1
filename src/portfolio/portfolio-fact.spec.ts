@@ -19,4 +19,9 @@ describe('PortfolioService', function () {
     }));
 
     describe('getPortfolio', function () {
-        it('should have an getPortfolio function', functio
+        it('should have an getPortfolio function', function () {
+            expect(_.isFunction(svc.getPortfolio)).toBeTruthy();
+        });
+    });
+
+    d
