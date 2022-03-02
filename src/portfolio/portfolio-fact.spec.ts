@@ -28,4 +28,7 @@ describe('PortfolioService', function () {
         var spy;
 
         beforeEach(function () {
- 
+            spy = spyOn(svc.portfolio, '$add');
+        });
+
+        it('should
