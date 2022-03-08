@@ -31,4 +31,5 @@ describe('PortfolioService', function () {
             spy = spyOn(svc.portfolio, '$add');
         });
 
-        it('should
+        it('should have an addStock function', function () {
+            expect(_.isFunction(svc.
