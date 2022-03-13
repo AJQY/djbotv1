@@ -32,4 +32,7 @@ describe('PortfolioService', function () {
         });
 
         it('should have an addStock function', function () {
-            expect(_.isFunction(svc.
+            expect(_.isFunction(svc.addStock)).toBeTruthy();
+        });
+
+        it('should do nothing if bad data
