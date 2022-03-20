@@ -35,4 +35,6 @@ describe('PortfolioService', function () {
             expect(_.isFunction(svc.addStock)).toBeTruthy();
         });
 
-        it('should do nothing if bad data
+        it('should do nothing if bad data is passed', function () {
+            svc.addStock();
+            svc.addStock('AAP
