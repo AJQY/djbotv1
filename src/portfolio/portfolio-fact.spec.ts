@@ -39,4 +39,8 @@ describe('PortfolioService', function () {
             svc.addStock();
             svc.addStock('AAPL');
             svc.addStock({ ticker: 'GOOG' });
-            svc.addStock({ symbol: 'AAPL
+            svc.addStock({ symbol: 'AAPL' });
+            expect(spy).not.toHaveBeenCalled();
+        });
+
+        it('should ca
