@@ -37,4 +37,6 @@ describe('PortfolioService', function () {
 
         it('should do nothing if bad data is passed', function () {
             svc.addStock();
-            svc.addStock('AAP
+            svc.addStock('AAPL');
+            svc.addStock({ ticker: 'GOOG' });
+            svc.addStock({ symbol: 'AAPL
