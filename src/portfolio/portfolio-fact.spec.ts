@@ -44,4 +44,5 @@ describe('PortfolioService', function () {
         });
 
         it('should call the database if good data is passed', function () {
-            svc.addStock({ symbol
+            svc.addStock({ symbol: 'GOOG' });
+            expect(spy).toHaveBeenCalledWith({ symbol: 'GOOG',
