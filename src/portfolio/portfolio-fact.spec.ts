@@ -50,3 +50,5 @@ describe('PortfolioService', function () {
     });
 
     describe('saveStock', function () {
+        it('should have an saveStock function', function () {
+            expect(_.isFunction
