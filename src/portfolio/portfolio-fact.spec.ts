@@ -51,4 +51,7 @@ describe('PortfolioService', function () {
 
     describe('saveStock', function () {
         it('should have an saveStock function', function () {
-            expect(_.isFunction
+            expect(_.isFunction(svc.saveStock)).toBeTruthy();
+        });
+
+        it('calls the save function', function 
