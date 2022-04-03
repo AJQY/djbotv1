@@ -56,4 +56,5 @@ describe('PortfolioService', function () {
 
         it('calls the save function', function () {
             var spy = spyOn(svc.portfolio, '$save');
-            svc.
+            svc.saveStock({ symbol: 'HELLO' });
+            expect(spy).toHaveBeenCalledWith(
