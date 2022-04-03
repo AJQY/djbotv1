@@ -54,4 +54,6 @@ describe('PortfolioService', function () {
             expect(_.isFunction(svc.saveStock)).toBeTruthy();
         });
 
-        it('calls the save function', function 
+        it('calls the save function', function () {
+            var spy = spyOn(svc.portfolio, '$save');
+            svc.
