@@ -67,4 +67,5 @@ describe('PortfolioService', function () {
         });
 
         it('should call into the dialog service', function () {
-            spyOn($mdDialog, 'confirm').and.callT
+            spyOn($mdDialog, 'confirm').and.callThrough();
+            spyOn($mdDialog, 'show').and.returnValue($q.when
