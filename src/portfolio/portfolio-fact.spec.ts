@@ -66,4 +66,5 @@ describe('PortfolioService', function () {
             expect(_.isFunction(svc.deleteStock)).toBeTruthy();
         });
 
-       
+        it('should call into the dialog service', function () {
+            spyOn($mdDialog, 'confirm').and.callT
