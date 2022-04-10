@@ -63,4 +63,7 @@ describe('PortfolioService', function () {
 
     describe('deleteStock', function () {
         it('should have an deleteStock function', function () {
-            
+            expect(_.isFunction(svc.deleteStock)).toBeTruthy();
+        });
+
+       
