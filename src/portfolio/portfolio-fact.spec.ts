@@ -68,4 +68,7 @@ describe('PortfolioService', function () {
 
         it('should call into the dialog service', function () {
             spyOn($mdDialog, 'confirm').and.callThrough();
-            spyOn($mdDialog, 'show').and.returnValue($q.when
+            spyOn($mdDialog, 'show').and.returnValue($q.when());
+            spyOn(svc.portfolio, '$remove');
+            svc.deleteStock();
+            $r
