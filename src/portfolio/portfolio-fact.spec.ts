@@ -71,4 +71,6 @@ describe('PortfolioService', function () {
             spyOn($mdDialog, 'show').and.returnValue($q.when());
             spyOn(svc.portfolio, '$remove');
             svc.deleteStock();
-            $r
+            $rootScope.$apply();
+            expect($mdDialog.confirm).toHaveBeenCalled();
+            expect($mdDi
