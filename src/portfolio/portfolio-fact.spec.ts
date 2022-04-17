@@ -75,4 +75,8 @@ describe('PortfolioService', function () {
             expect($mdDialog.confirm).toHaveBeenCalled();
             expect($mdDialog.show).toHaveBeenCalled();
             expect(svc.portfolio.$remove).toHaveBeenCalled();
- 
+        });
+    });
+
+    describe('getUnusedPercentage', function () {
+        it('should ha
