@@ -73,4 +73,6 @@ describe('PortfolioService', function () {
             svc.deleteStock();
             $rootScope.$apply();
             expect($mdDialog.confirm).toHaveBeenCalled();
-            expect($mdDi
+            expect($mdDialog.show).toHaveBeenCalled();
+            expect(svc.portfolio.$remove).toHaveBeenCalled();
+ 
