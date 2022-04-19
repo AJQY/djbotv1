@@ -79,4 +79,5 @@ describe('PortfolioService', function () {
     });
 
     describe('getUnusedPercentage', function () {
-        it('should ha
+        it('should have an getUnusedPercentage function', function () {
+            e
