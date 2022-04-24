@@ -82,3 +82,6 @@ describe('PortfolioService', function () {
         it('should have an getUnusedPercentage function', function () {
             expect(_.isFunction(svc.getUnusedPercentage)).toBeTruthy();
         });
+
+        it('should correctly sum up the remaining percentage of a portfolio', function () {
+ 
