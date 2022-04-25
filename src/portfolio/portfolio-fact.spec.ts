@@ -87,4 +87,5 @@ describe('PortfolioService', function () {
             expect(svc.getUnusedPercentage()).toEqual(60);
         });
 
-        it('should 
+        it('should add on the optional parameter if provided', function () {
+            
