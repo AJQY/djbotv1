@@ -1,1 +1,1 @@
-angula
+angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseArray,
