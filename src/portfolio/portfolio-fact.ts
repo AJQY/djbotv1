@@ -1,1 +1,5 @@
-angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseArray,
+angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseArray, $mdDialog) {
+  var svc = this;
+  svc.portfolio;
+
+  svc.getPortfolio = function (uid: string) 
