@@ -3,4 +3,6 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
   svc.portfolio;
 
   svc.getPortfolio = function (uid: string) {
-    var portfolioRef = new Firebase('https://realtimetrade.firebaseio.com/portfoli
+    var portfolioRef = new Firebase('https://realtimetrade.firebaseio.com/portfolios');
+    svc.portfolio = $firebaseArray(portfolioRef.child(uid));
+    return svc.portfolio;
