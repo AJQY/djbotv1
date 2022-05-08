@@ -10,4 +10,8 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
 	
   //Add a stock to a player
   svc.addStock = function (stock: {symbol: string}) {
-    if (!stock || !svc.portfolio || !stock
+    if (!stock || !svc.portfolio || !stock.symbol || _.some(svc.portfolio, { symbol: stock.symbol })) {
+      return;
+    }
+
+    
