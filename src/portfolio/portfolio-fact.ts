@@ -9,4 +9,5 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
   };
 	
   //Add a stock to a player
-  svc.addStock = function (stock: {symbol: 
+  svc.addStock = function (stock: {symbol: string}) {
+    if (!stock || !svc.portfolio || !stock
