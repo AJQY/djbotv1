@@ -14,4 +14,9 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
       return;
     }
 
-    
+    stock.percentage = 0;
+    svc.portfolio.$add(stock);
+  };
+	
+  //Save changes to a stock
+  svc.saveS
