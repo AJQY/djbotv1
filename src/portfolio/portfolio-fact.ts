@@ -19,4 +19,8 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
   };
 	
   //Save changes to a stock
-  svc.saveS
+  svc.saveStock = function (stock) {
+    svc.portfolio.$save(stock);
+  };
+
+  //Delete a stock f
