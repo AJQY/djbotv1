@@ -23,4 +23,6 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
     svc.portfolio.$save(stock);
   };
 
-  //Delete a stock f
+  //Delete a stock from a player
+  svc.deleteStock = function (event, index: number) {
+    var confi
