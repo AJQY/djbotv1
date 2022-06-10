@@ -25,4 +25,6 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
 
   //Delete a stock from a player
   svc.deleteStock = function (event, index: number) {
-    var confi
+    var confirm = $mdDialog.confirm()
+      .title('Would you like to delete this stock?')
+      .tex
