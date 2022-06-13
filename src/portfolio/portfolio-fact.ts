@@ -27,4 +27,5 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
   svc.deleteStock = function (event, index: number) {
     var confirm = $mdDialog.confirm()
       .title('Would you like to delete this stock?')
-      .tex
+      .textContent('Please confirm that you would like to delete this stock.')
+      .ariaLabel('Delete stock'
