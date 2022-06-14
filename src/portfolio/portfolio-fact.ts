@@ -33,4 +33,8 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
       .ok('Confirm')
       .cancel('Cancel');
 
-    $mdDial
+    $mdDialog.show(confirm).then(function () {
+      svc.portfolio.$remove(index);
+    });
+  };
+	
