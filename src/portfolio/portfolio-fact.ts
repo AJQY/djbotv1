@@ -38,3 +38,4 @@ angular.module('RealTimeTrade').factory('PortfolioService', function ($firebaseA
     });
   };
 	
+  //Find what percentage of the portfolio is unused (int between 0 and 100, inclusive).
