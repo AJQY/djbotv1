@@ -1,0 +1,26 @@
+
+<md-content layout-padding class="portfolio">
+    <!-- Sliders -->
+    <md-content layout-padding>
+        <!-- Display for if nothing is selected -->
+        <md-content layout-padding ng-if="!$ctrl.portfolio.length" class="fade">
+            <div ng-if="$ctrl.isLoaded" class="fade">
+                <h4 class="md-title">Looks like there's nothing here yet!</h4>
+                <h4 class="md-subhead">Let's fix that. Click the "Add Stock" button below and start building your portfolio.</h4>
+            </div>
+
+            <!-- Display while loading -->
+            <h4 class="md-title" ng-if="!$ctrl.isLoaded" class="fade">Loading...</h4>
+        </md-content>
+
+        <!-- Stock sliders -->
+        <div ng-repeat="stock in $ctrl.portfolio" ng-init="stockIndex = $index" class="fade">
+            <stock-slider stock="stock">
+                <ng-md-icon icon="delete" class="delete-icon" ng-click="$ctrl.deleteStock($event, stockIndex)"></ng-md-icon>
+            </stock-slider>
+        </div>
+
+        <!-- Currency holding percentage -->
+        <md-content layout-padding ng-if="$ctrl.getMax(0) > 0 && $ctrl.isLoaded" class="fade">
+            <span><strong>{{$ctrl.getMax(0)}}%</strong> is held in U.S. Dollars.</span>
+        </md-content>
