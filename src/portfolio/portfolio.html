@@ -24,3 +24,12 @@
         <md-content layout-padding ng-if="$ctrl.getMax(0) > 0 && $ctrl.isLoaded" class="fade">
             <span><strong>{{$ctrl.getMax(0)}}%</strong> is held in U.S. Dollars.</span>
         </md-content>
+    </md-content>
+
+    <md-divider></md-divider>
+
+    <!-- Add button -->
+    <md-content layout-padding ng-if="$ctrl.isLoaded">
+        <add-new-stock></add-new-stock>
+    </md-content>
+</md-content>
