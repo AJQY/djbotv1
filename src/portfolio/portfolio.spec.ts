@@ -1,2 +1,6 @@
 describe('Portfolio', function () {
-    var $scope, e
+    var $scope, elem;
+
+    beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
+
+    beforeEac
