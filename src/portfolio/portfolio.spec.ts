@@ -3,4 +3,4 @@ describe('Portfolio', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEac
+    beforeEach(inject(function ($compile, $rootScope, $httpBackend, AuthenticationServi
