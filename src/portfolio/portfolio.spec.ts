@@ -3,4 +3,8 @@ describe('Portfolio', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEach(inject(function ($compile, $rootScope, $httpBackend, AuthenticationServi
+    beforeEach(inject(function ($compile, $rootScope, $httpBackend, AuthenticationService) {
+        AuthenticationService.auth.data = {
+            uid: 'AAA'
+        };
+        spyOn(
