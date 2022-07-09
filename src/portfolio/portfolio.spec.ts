@@ -7,4 +7,6 @@ describe('Portfolio', function () {
         AuthenticationService.auth.data = {
             uid: 'AAA'
         };
-        spyOn(
+        spyOn(AuthenticationService, 'getUserID').and.returnValue('1');
+
+        $http
