@@ -9,4 +9,7 @@ describe('Portfolio', function () {
         };
         spyOn(AuthenticationService, 'getUserID').and.returnValue('1');
 
-        $http
+        $httpBackend.whenGET('json.js').respond({
+            'chart-options': {
+                'chart': {}
+    
