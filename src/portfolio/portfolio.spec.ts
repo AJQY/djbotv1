@@ -20,4 +20,6 @@ describe('Portfolio', function () {
         $scope.$digest();
     }));
 
-    descr
+    describe('initialization', function () {
+        it('creates the element', function () {
+     
