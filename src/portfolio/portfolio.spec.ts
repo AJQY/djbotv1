@@ -16,4 +16,8 @@ describe('Portfolio', function () {
         });
 
         $scope = $rootScope.$new();
-        elem = $comp
+        elem = $compile('<portfolio></portfolio>')($scope);
+        $scope.$digest();
+    }));
+
+    descr
