@@ -6,3 +6,5 @@
 *
 * @description
 **/
+angular.module('RealTimeTrade').component('portfolio', {
+	templateUrl: 'portfolio/portfolio.
