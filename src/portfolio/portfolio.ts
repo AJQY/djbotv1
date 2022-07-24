@@ -7,4 +7,6 @@
 * @description
 **/
 angular.module('RealTimeTrade').component('portfolio', {
-	templateUrl: 'portfolio/portfolio.
+	templateUrl: 'portfolio/portfolio.html',
+	controller: 'PortfolioCtrl'
+});
