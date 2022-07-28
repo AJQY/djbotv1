@@ -5,4 +5,6 @@ describe('StockSliderCtrl', function () {
         module('RealTimeTrade');
     });
 
-    beforeEach(inject(function ($controller, $rootScope) 
+    beforeEach(inject(function ($controller, $rootScope) {
+        createController = function () {
+            ctrl = $controller('StockSliderCtrl',
