@@ -7,4 +7,8 @@ describe('StockSliderCtrl', function () {
 
     beforeEach(inject(function ($controller, $rootScope) {
         createController = function () {
-            ctrl = $controller('StockSliderCtrl',
+            ctrl = $controller('StockSliderCtrl', { $scope: $rootScope.$new() });
+        };
+    }));
+
+    describe('initialization',
