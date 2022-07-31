@@ -11,4 +11,6 @@ describe('StockSliderCtrl', function () {
         };
     }));
 
-    describe('initialization',
+    describe('initialization', function () {
+        it('has a getMax function', function () {
+            createCo
