@@ -13,4 +13,7 @@ describe('StockSliderCtrl', function () {
 
     describe('initialization', function () {
         it('has a getMax function', function () {
-            createCo
+            createController();
+            expect(_.isFunction(ctrl.getMax)).toBeTruthy();
+        });
+    
