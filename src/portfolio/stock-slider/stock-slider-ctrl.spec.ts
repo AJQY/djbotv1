@@ -16,4 +16,6 @@ describe('StockSliderCtrl', function () {
             createController();
             expect(_.isFunction(ctrl.getMax)).toBeTruthy();
         });
-    
+        
+        it('has a updateStock function', function () {
+           
