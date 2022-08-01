@@ -18,4 +18,6 @@ describe('StockSliderCtrl', function () {
         });
         
         it('has a updateStock function', function () {
-           
+            createController();
+            expect(_.isFunction(ctrl.updateStock)).toBeTruthy();
+     
