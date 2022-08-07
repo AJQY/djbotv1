@@ -1,3 +1,9 @@
 /**
 * @ngdoc controller
-* @name RealTimeTrade.controller:StockS
+* @name RealTimeTrade.controller:StockSliderCtrl
+*
+* @description
+*
+* @requires PortfolioService
+**/
+angular.module('Real
