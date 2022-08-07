@@ -6,4 +6,6 @@
 *
 * @requires PortfolioService
 **/
-angular.module('Real
+angular.module('RealTimeTrade').controller('StockSliderCtrl', function (PortfolioService) {
+    var ctrl = this;
+    
