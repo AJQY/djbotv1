@@ -9,4 +9,5 @@
     </div>
 
     <!-- Slider -->
-    <md-slider flex ng-model="$ctrl.stock.percentage" ng-change="$ctrl.updateStock($ctrl.stoc
+    <md-slider flex ng-model="$ctrl.stock.percentage" ng-change="$ctrl.updateStock($ctrl.stock)" max="{{$ctrl.getMax($ctrl.stock.percentage)}}" aria-label="stockSlider"></md-slider>
+
