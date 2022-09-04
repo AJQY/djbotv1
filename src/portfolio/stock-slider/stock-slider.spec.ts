@@ -5,4 +5,4 @@ describe('StockSlider', function () {
 
     beforeEach(inject(function ($compile, $rootScope) {
         $scope = $rootScope.$new();
-        elem = $co
+        elem = $compile('<stock-slider name="TEST" percentage="50"></stock-slider>')($scope
