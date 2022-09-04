@@ -3,4 +3,6 @@ describe('StockSlider', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEach(inject
+    beforeEach(inject(function ($compile, $rootScope) {
+        $scope = $rootScope.$new();
+        elem = $co
