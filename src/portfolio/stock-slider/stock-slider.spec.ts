@@ -1,4 +1,6 @@
 describe('StockSlider', function () {
     var $scope, elem;
 
-    b
+    beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
+
+    beforeEach(inject
