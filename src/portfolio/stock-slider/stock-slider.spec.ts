@@ -9,4 +9,7 @@ describe('StockSlider', function () {
         $scope.$digest();
     }));
 
-    describe('initialization', function () 
+    describe('initialization', function () {
+        it('creates the element', function () {
+            expect(elem).toBeDefined();
+      
