@@ -1,4 +1,9 @@
 /**
 * @ngdoc directive
 * @name RealTimeTrade.component:stockSlider
-* @elemen
+* @element stock-slider
+* @scope
+*
+* @description
+**/
+angular.module('RealTimeTrade'
