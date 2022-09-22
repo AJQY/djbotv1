@@ -6,4 +6,5 @@
 *
 * @description
 **/
-angular.module('RealTimeTrade'
+angular.module('RealTimeTrade').component('stockSlider', {
+  templateUrl: 'portfolio/stock-slider/stock-slid
