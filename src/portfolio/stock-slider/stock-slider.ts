@@ -10,4 +10,7 @@ angular.module('RealTimeTrade').component('stockSlider', {
   templateUrl: 'portfolio/stock-slider/stock-slider.html',
   controller: 'StockSliderCtrl',
   transclude: true,
-  bindings
+  bindings: {
+    stock: '<'
+  }
+});
