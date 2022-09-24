@@ -18,3 +18,12 @@ describe('AboutDialogCtrl', function () {
             expect(_.isFunction(ctrl.closeDialog)).toBeTruthy();
             spyOn($mdDialog, 'hide');
             ctrl.closeDialog();
+            expect($mdDialog.hide).toHaveBeenCalled();
+        });
+
+        it('has an array of developers', function () {
+            expect(_.isArray(ctrl.developers)).toBeTruthy();
+            expect(ctrl.developers.length).toBeGreaterThan(0);
+        });
+    });
+});
