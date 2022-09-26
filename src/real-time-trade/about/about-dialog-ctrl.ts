@@ -2,4 +2,9 @@
 * @ngdoc controller
 * @name RealTimeTrade.controller:AboutDialogCtrl
 *
-* @desc
+* @description
+* Controller for the About dialog, internally.
+*
+* @requires $mdDialog
+**/
+angular.module('
