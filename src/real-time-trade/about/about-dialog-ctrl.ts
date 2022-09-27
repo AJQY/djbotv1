@@ -7,4 +7,5 @@
 *
 * @requires $mdDialog
 **/
-angular.module('
+angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialog) {
+    var
