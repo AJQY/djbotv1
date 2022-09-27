@@ -8,4 +8,10 @@
 * @requires $mdDialog
 **/
 angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialog) {
-    var
+    var ctrl = this;
+
+    ctrl.closeDialog = function () {
+        $mdDialog.hide();
+    };
+
+    ctrl.
