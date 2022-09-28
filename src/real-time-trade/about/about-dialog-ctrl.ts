@@ -17,4 +17,5 @@ angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialo
     ctrl.developers = [
         {
             name: 'Aaron Buxbaum',
-            title: 'Lead Software Engineer
+            title: 'Lead Software Engineer',
+            picture: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/01c
