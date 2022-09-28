@@ -14,4 +14,7 @@ angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialo
         $mdDialog.hide();
     };
 
-    ctrl.
+    ctrl.developers = [
+        {
+            name: 'Aaron Buxbaum',
+            title: 'Lead Software Engineer
