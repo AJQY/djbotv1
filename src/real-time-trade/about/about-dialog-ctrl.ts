@@ -20,4 +20,4 @@ angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialo
             title: 'Lead Software Engineer',
             picture: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/01c/0ac/0ece994.jpg',
             linkedIn: 'https://www.linkedin.com/in/aaronbuxbaum',
-      
+            text: 'I\'m a software engineer working in AngularJS architecture at Raymond James Fi
