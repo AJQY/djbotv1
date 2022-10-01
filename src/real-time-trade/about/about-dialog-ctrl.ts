@@ -22,4 +22,4 @@ angular.module('RealTimeTrade').controller('AboutDialogCtrl', function ($mdDialo
             linkedIn: 'https://www.linkedin.com/in/aaronbuxbaum',
             text: 'I\'m a software engineer working in AngularJS architecture at Raymond James Financial. ' +
             'I hold a Bachelors of Science in Computer Science and a Minor in Mathematics from the University of Massachusetts-Amherst, ' +
-          
+            'and currently am pursuing my Masters of Science in Computer Science from Georgia Institute of T
