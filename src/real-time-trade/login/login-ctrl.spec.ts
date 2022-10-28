@@ -1,2 +1,4 @@
 describe('LoginCtrl', function () {
-    var c
+    var ctrl, createController, $mdDialog;
+
+    beforeEach(function (
