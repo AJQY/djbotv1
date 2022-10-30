@@ -5,4 +5,6 @@ describe('LoginCtrl', function () {
         module('RealTimeTrade');
     });
 
-    beforeEach(inject(function ($controller,
+    beforeEach(inject(function ($controller, $rootScope, _$mdDialog_) {
+        createController = function () {
+          
