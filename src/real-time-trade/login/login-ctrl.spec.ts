@@ -7,4 +7,5 @@ describe('LoginCtrl', function () {
 
     beforeEach(inject(function ($controller, $rootScope, _$mdDialog_) {
         createController = function () {
-          
+            ctrl = $controller('LoginCtrl', {
+                $scope: $rootScope.$new
