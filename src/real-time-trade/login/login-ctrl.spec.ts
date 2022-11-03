@@ -14,3 +14,7 @@ describe('LoginCtrl', function () {
 
         $mdDialog = _$mdDialog_;
     }));
+
+    describe('initialization', function () {
+        it('opens the login modal', function () {
+         
