@@ -17,4 +17,6 @@ describe('LoginCtrl', function () {
 
     describe('initialization', function () {
         it('opens the login modal', function () {
-         
+            spyOn($mdDialog, 'show');
+            createController();
+            expect($mdDialog.show).toHav
