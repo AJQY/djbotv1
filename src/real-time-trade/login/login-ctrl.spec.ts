@@ -19,4 +19,7 @@ describe('LoginCtrl', function () {
         it('opens the login modal', function () {
             spyOn($mdDialog, 'show');
             createController();
-            expect($mdDialog.show).toHav
+            expect($mdDialog.show).toHaveBeenCalled();
+        });
+    });
+});
