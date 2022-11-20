@@ -8,4 +8,7 @@ describe('Login', function () {
         $mdDialog = _$mdDialog_;
         elem = $compile('<login></login>')($scope);
         $scope.$digest();
-  
+    }));
+
+    describe('on destruction', function () {
+        it('hides th
