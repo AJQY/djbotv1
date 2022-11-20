@@ -6,4 +6,6 @@ describe('Login', function () {
     beforeEach(inject(function ($compile, $rootScope, _$mdDialog_) {
         $scope = $rootScope.$new();
         $mdDialog = _$mdDialog_;
-   
+        elem = $compile('<login></login>')($scope);
+        $scope.$digest();
+  
