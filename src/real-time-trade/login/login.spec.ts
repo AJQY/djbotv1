@@ -11,4 +11,6 @@ describe('Login', function () {
     }));
 
     describe('on destruction', function () {
-        it('hides th
+        it('hides the dialog', function () {
+            spyOn($mdDialog, 'hide');
+           
