@@ -13,4 +13,6 @@ describe('Login', function () {
     describe('on destruction', function () {
         it('hides the dialog', function () {
             spyOn($mdDialog, 'hide');
-           
+            $scope.$destroy();
+            expect($mdDialog.hide).toHaveBeenCalled();
+       
