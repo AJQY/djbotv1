@@ -15,4 +15,6 @@ describe('Login', function () {
             spyOn($mdDialog, 'hide');
             $scope.$destroy();
             expect($mdDialog.hide).toHaveBeenCalled();
-       
+        });
+    });
+});
