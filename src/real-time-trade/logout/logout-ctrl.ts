@@ -4,4 +4,6 @@
 *
 * @description
 *
-* @requires AuthenticationServic
+* @requires AuthenticationService
+**/
+angular.module('RealTimeTrade').controller('LogoutCtrl', function (AuthenticationService
