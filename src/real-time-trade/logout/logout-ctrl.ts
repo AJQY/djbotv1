@@ -6,4 +6,8 @@
 *
 * @requires AuthenticationService
 **/
-angular.module('RealTimeTrade').controller('LogoutCtrl', function (AuthenticationService
+angular.module('RealTimeTrade').controller('LogoutCtrl', function (AuthenticationService) {
+    var ctrl = this;
+    
+    ctrl.logOut = AuthenticationService.logOut;
+})
