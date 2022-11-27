@@ -10,4 +10,4 @@ angular.module('RealTimeTrade').controller('LogoutCtrl', function (Authenticatio
     var ctrl = this;
     
     ctrl.logOut = AuthenticationService.logOut;
-})
+});
