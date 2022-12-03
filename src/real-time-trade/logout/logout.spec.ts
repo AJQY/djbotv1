@@ -5,4 +5,8 @@ describe('Logout', function () {
 
     beforeEach(inject(function ($compile, $rootScope) {
         $scope = $rootScope.$new();
-        e
+        elem = $compile('<logout></logout>')($scope);
+        $scope.$digest();
+    }));
+
+    descr
