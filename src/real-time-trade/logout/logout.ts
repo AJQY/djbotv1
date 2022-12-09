@@ -4,4 +4,7 @@
 * @element logout
 * @scope
 *
-* @descrip
+* @description
+* A logout button that deauthorizes the user.
+**/
+angular.module('RealTimeTrade')
