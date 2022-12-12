@@ -1,0 +1,1 @@
+angular.module('RealTimeTrade').config(function ($stat

@@ -9,3 +9,5 @@
 **/
 angular.module('RealTimeTrade').component('logout', {
 		templateUrl: 'real-time-trade/logout/logout.html',
+		controller: 'LogoutCtrl'
+});
