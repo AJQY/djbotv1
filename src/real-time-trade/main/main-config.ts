@@ -2,4 +2,7 @@ angular.module('RealTimeTrade').config(function ($stateProvider) {
     $stateProvider
         .state('tabs', {
             abstract: true,
-            u
+            url: '/tabs'
+        });
+
+    var tabs = ['ticker', 'portfolio', 'log
