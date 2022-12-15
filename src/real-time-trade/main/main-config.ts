@@ -5,4 +5,7 @@ angular.module('RealTimeTrade').config(function ($stateProvider) {
             url: '/tabs'
         });
 
-    var tabs = ['ticker', 'portfolio', 'log
+    var tabs = ['ticker', 'portfolio', 'logOut'];
+
+    _.forEach(tabs, function (state, i) {
+        $stateProvider.state('tab
