@@ -8,4 +8,8 @@ angular.module('RealTimeTrade').config(function ($stateProvider) {
     var tabs = ['ticker', 'portfolio', 'logOut'];
 
     _.forEach(tabs, function (state, i) {
-        $stateProvider.state('tab
+        $stateProvider.state('tabs.' + state, {
+            url: '/' + state,
+            data: {
+                selectedTab: i
+     
