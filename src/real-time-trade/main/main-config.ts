@@ -12,4 +12,7 @@ angular.module('RealTimeTrade').config(function ($stateProvider) {
             url: '/' + state,
             data: {
                 selectedTab: i
-     
+            }
+        });
+    });
+});
