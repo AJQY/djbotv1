@@ -1,3 +1,7 @@
 /**
 * @ngdoc controller
-* @name RealTimeTr
+* @name RealTimeTrade.controller:MainCtrl
+*
+* @description
+**/
+angular.module('RealTimeTrade').co
