@@ -7,4 +7,5 @@
 angular.module('RealTimeTrade').controller('MainCtrl', function ($scope) {
   var ctrl = this;
   
-  $scope.$on('$stateChan
+  $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
+    ctrl.selectedTab = 
