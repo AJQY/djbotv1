@@ -4,4 +4,7 @@
 *
 * @description
 **/
-angular.module('RealTimeTrade').co
+angular.module('RealTimeTrade').controller('MainCtrl', function ($scope) {
+  var ctrl = this;
+  
+  $scope.$on('$stateChan
