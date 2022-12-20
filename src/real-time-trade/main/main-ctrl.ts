@@ -8,4 +8,6 @@ angular.module('RealTimeTrade').controller('MainCtrl', function ($scope) {
   var ctrl = this;
   
   $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-    ctrl.selectedTab = 
+    ctrl.selectedTab = toState.data.selectedTab;
+  });
+});
