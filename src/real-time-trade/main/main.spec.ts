@@ -5,4 +5,9 @@ describe('Main', function () {
 
     beforeEach(inject(function ($compile, $rootScope, $httpBackend, AuthenticationService) {
         AuthenticationService.auth.data = {
-           
+            uid: 'AAA'
+        };
+        spyOn(AuthenticationService, 'getUserID').and.returnValue('1');
+
+
+        $httpBackend.w
