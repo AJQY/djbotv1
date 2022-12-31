@@ -12,4 +12,8 @@ describe('Main', function () {
 
         $httpBackend.whenGET('json.js').respond({
             'chart-options': {
-     
+                'chart': {}
+            }
+        });
+
+        $scope = $rootScope.$new
