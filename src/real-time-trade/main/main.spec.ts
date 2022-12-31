@@ -10,4 +10,6 @@ describe('Main', function () {
         spyOn(AuthenticationService, 'getUserID').and.returnValue('1');
 
 
-        $httpBackend.w
+        $httpBackend.whenGET('json.js').respond({
+            'chart-options': {
+     
