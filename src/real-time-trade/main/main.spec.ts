@@ -16,4 +16,6 @@ describe('Main', function () {
             }
         });
 
-        $scope = $rootScope.$new
+        $scope = $rootScope.$new();
+        elem = $compile('<main></main>')($scope);
+        $scope.$digest()
