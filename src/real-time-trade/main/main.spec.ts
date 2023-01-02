@@ -18,4 +18,8 @@ describe('Main', function () {
 
         $scope = $rootScope.$new();
         elem = $compile('<main></main>')($scope);
-        $scope.$digest()
+        $scope.$digest();
+    }));
+
+    describe('initialization', function () {
+        it('creates the e
