@@ -22,4 +22,8 @@ describe('Main', function () {
     }));
 
     describe('initialization', function () {
-        it('creates the e
+        it('creates the element', function () {
+            expect(elem).toBeDefined();
+        });
+    });
+});
