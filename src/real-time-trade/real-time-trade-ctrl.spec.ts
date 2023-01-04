@@ -1,2 +1,5 @@
 describe('RealTimeTradeCtrl', function () {
-    var ctrl, Authentic
+    var ctrl, AuthenticationService;
+
+    beforeEach(function () {
+        module('RealTimeTrade
