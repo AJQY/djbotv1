@@ -2,4 +2,7 @@ describe('RealTimeTradeCtrl', function () {
     var ctrl, AuthenticationService;
 
     beforeEach(function () {
-        module('RealTimeTrade
+        module('RealTimeTrade');
+    });
+
+    beforeEach(inject(function ($controller, $rootScope, _AuthenticationSer
