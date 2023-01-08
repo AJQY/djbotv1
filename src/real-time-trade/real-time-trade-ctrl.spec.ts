@@ -8,4 +8,9 @@ describe('RealTimeTradeCtrl', function () {
     beforeEach(inject(function ($controller, $rootScope, _AuthenticationService_) {
         ctrl = $controller('RealTimeTradeCtrl', {
             $scope: $rootScope.$new()
-  
+        });
+
+        AuthenticationService = _AuthenticationService_;
+    }));
+
+    descri
