@@ -15,4 +15,7 @@ describe('RealTimeTradeCtrl', function () {
 
     describe('initialization', function () {
         it('sets up the loading styles', function () {
-            expect
+            expect(_.isObject(ctrl.loadingStyle)).toBeTruthy();
+        });
+
+        it('hooks up the au
