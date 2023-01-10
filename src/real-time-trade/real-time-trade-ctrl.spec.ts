@@ -13,4 +13,6 @@ describe('RealTimeTradeCtrl', function () {
         AuthenticationService = _AuthenticationService_;
     }));
 
-    descri
+    describe('initialization', function () {
+        it('sets up the loading styles', function () {
+            expect
