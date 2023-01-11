@@ -18,4 +18,6 @@ describe('RealTimeTradeCtrl', function () {
             expect(_.isObject(ctrl.loadingStyle)).toBeTruthy();
         });
 
-        it('hooks up the au
+        it('hooks up the authentication service', function () {
+            expect(ctrl.auth).toBeDefined();
+       
