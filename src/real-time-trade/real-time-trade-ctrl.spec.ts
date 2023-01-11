@@ -20,4 +20,7 @@ describe('RealTimeTradeCtrl', function () {
 
         it('hooks up the authentication service', function () {
             expect(ctrl.auth).toBeDefined();
-       
+            expect(ctrl.auth).toEqual(AuthenticationService.auth);
+        });
+    });
+});
