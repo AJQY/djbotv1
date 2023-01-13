@@ -3,4 +3,8 @@
 * @name RealTimeTrade
 *
 * @description
-* The 
+* The RealTimeTrade module.
+*
+* @requires ngMaterial
+* @requires ngAnimate
+* @r
