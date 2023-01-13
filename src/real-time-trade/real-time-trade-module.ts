@@ -7,4 +7,7 @@
 *
 * @requires ngMaterial
 * @requires ngAnimate
-* @r
+* @requires ngMdIcons
+* @requires firebase
+* @requires ui.router
+* @requires RealTi
