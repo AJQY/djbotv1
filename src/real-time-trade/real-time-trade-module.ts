@@ -10,4 +10,9 @@
 * @requires ngMdIcons
 * @requires firebase
 * @requires ui.router
-* @requires RealTi
+* @requires RealTimeTrade.Templates
+**/
+angular.module('RealTimeTrade', [
+	'ngMaterial',
+  'ngAnimate',
+ 
