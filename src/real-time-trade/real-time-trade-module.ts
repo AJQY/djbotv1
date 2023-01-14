@@ -15,4 +15,8 @@
 angular.module('RealTimeTrade', [
 	'ngMaterial',
   'ngAnimate',
- 
+  'ngMdIcons',
+  'firebase',
+  'ui.router',
+	'RealTimeTrade.Templates'
+]
