@@ -19,4 +19,4 @@ angular.module('RealTimeTrade', [
   'firebase',
   'ui.router',
 	'RealTimeTrade.Templates'
-]
+]);
