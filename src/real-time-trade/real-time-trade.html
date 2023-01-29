@@ -2,4 +2,6 @@
 	<login ng-if="!$ctrl.auth.data && !$ctrl.auth.isLoading"></login>
 	<md-content ng-if="!$ctrl.auth.data"></md-content>
 	<loading ng-if="$ctrl.auth.isLoading"></loading>
-	<main 
+	<main ng-if="$ctrl.auth.data && !$ctrl.auth.isLoading"></main>
+	<about></about>
+</md-content
