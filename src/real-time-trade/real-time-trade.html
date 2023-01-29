@@ -1,3 +1,5 @@
 <md-content ng-style="!$ctrl.auth.data && $ctrl.loadingStyle">
 	<login ng-if="!$ctrl.auth.data && !$ctrl.auth.isLoading"></login>
-	<md-content ng-if="!$ctrl.au
+	<md-content ng-if="!$ctrl.auth.data"></md-content>
+	<loading ng-if="$ctrl.auth.isLoading"></loading>
+	<main 
