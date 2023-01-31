@@ -1,4 +1,6 @@
 describe('RealTimeTrade', function () {
     var $scope, elem;
 
-    beforeEach(module
+    beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
+
+    beforeEach(inject(function ($compile, $rootScope
