@@ -5,4 +5,8 @@ describe('RealTimeTrade', function () {
 
     beforeEach(inject(function ($compile, $rootScope) {
         $scope = $rootScope.$new();
-        elem = $compile('<real-tim
+        elem = $compile('<real-time-trade></real-time-trade>')($scope);
+        $scope.$digest();
+    }));
+
+    descri
