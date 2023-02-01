@@ -3,4 +3,6 @@ describe('RealTimeTrade', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEach(inject(function ($compile, $rootScope
+    beforeEach(inject(function ($compile, $rootScope) {
+        $scope = $rootScope.$new();
+        elem = $compile('<real-tim
