@@ -9,4 +9,6 @@ describe('RealTimeTrade', function () {
         $scope.$digest();
     }));
 
-    descri
+    describe('initialization', function () {
+        it('creates the element', function () {
+      
