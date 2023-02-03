@@ -1,2 +1,6 @@
 {
-  "animatio
+  "animation": true,
+  "chart": {
+    "height": 400,
+    "animation": true,
+    "reflow": f
