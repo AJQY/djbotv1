@@ -3,4 +3,8 @@
   "chart": {
     "height": 400,
     "animation": true,
-    "reflow": f
+    "reflow": false,
+    "zoomType": "x",
+    "style": {
+      "fontFamily": [
+        "Roboto",
