@@ -8,3 +8,9 @@
     "style": {
       "fontFamily": [
         "Roboto",
+        "Helvetica Neue",
+        "sans-serif"
+      ]
+    }
+  },
+  "legend": 
