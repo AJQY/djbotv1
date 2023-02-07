@@ -20,4 +20,9 @@
     "enabled": false
   },
   "rangeSelector": {
-   
+    "buttons": [
+      {
+        "type": "minute",
+        "count": 5,
+        "text": "m"
+  
