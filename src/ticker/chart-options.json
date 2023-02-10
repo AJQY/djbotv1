@@ -25,4 +25,9 @@
         "type": "minute",
         "count": 5,
         "text": "m"
-  
+      },
+      {
+        "type": "hour",
+        "count": 1,
+        "text": "h"
+    
