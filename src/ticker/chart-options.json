@@ -30,4 +30,8 @@
         "type": "hour",
         "count": 1,
         "text": "h"
-    
+      },
+      {
+        "type": "hour",
+        "count": 8,
+        "text"
