@@ -34,4 +34,9 @@
       {
         "type": "hour",
         "count": 8,
-        "text"
+        "text": "d"
+      },
+      {
+        "type": "day",
+        "count": 5,
+        "text": "w
