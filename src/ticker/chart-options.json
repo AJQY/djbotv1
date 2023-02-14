@@ -44,4 +44,10 @@
       {
         "type": "all",
         "count": 1,
-        "text":
+        "text": "all"
+      }
+    ],
+    "inputEnabled": false
+  },
+  "yAxis": {
+    "title": {
