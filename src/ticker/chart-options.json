@@ -55,4 +55,9 @@
     }
   },
   "tooltip": {
-    "valueDecim
+    "valueDecimals": 2,
+    "valuePrefix": "$"
+  },
+  "series": [],
+  "title": {
+    "text": "My Po
