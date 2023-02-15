@@ -51,3 +51,8 @@
   },
   "yAxis": {
     "title": {
+      "text": "Portfolio Value ($)"
+    }
+  },
+  "tooltip": {
+    "valueDecim
