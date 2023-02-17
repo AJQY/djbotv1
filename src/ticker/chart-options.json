@@ -60,4 +60,8 @@
   },
   "series": [],
   "title": {
-    "text": "My Po
+    "text": "My Portfolio"
+  },
+  "navigator": {
+    "enabled": true,
+    "adaptToUpdatedData": true
