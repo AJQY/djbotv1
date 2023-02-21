@@ -1,1 +1,5 @@
-angular.module('RealTimeTrade').config(function (
+angular.module('RealTimeTrade').config(function () {
+  //Set global timezone to EST
+  Highcharts.setOptions({
+    global: {
+      timezone
