@@ -6,4 +6,6 @@
 *
 * @requires $q
 * @requires $http
-* @requires A
+* @requires AuthenticationService
+**/
+angular.module('RealTimeTrade').controller('TickerC
