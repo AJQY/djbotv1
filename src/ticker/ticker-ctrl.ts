@@ -8,4 +8,5 @@
 * @requires $http
 * @requires AuthenticationService
 **/
-angular.module('RealTimeTrade').controller('TickerC
+angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http: $http, AuthenticationService: AuthenticationService) {
+  var ctr
