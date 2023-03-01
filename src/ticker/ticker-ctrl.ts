@@ -9,4 +9,6 @@
 * @requires AuthenticationService
 **/
 angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http: $http, AuthenticationService: AuthenticationService) {
-  var ctr
+  var ctrl = this;
+  var auth = AuthenticationService.auth.data;
+  ctrl.ref = new Firebase('
