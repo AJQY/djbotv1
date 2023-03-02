@@ -11,4 +11,6 @@
 angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http: $http, AuthenticationService: AuthenticationService) {
   var ctrl = this;
   var auth = AuthenticationService.auth.data;
-  ctrl.ref = new Firebase('
+  ctrl.ref = new Firebase('https://realtimetrade.firebaseio.com').child('series').child(auth.uid);
+
+  //Ge
