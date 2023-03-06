@@ -13,4 +13,6 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
   var auth = AuthenticationService.auth.data;
   ctrl.ref = new Firebase('https://realtimetrade.firebaseio.com').child('series').child(auth.uid);
 
-  //Ge
+  //Get lines for each player in active league
+  $http.get('json.js')
+    .then(setUpCha
