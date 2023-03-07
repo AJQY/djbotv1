@@ -17,4 +17,9 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
   $http.get('json.js')
     .then(setUpChart)
     .then(function() {
-      ctrl.ref.orderByChild('0').once('value', renderU
+      ctrl.ref.orderByChild('0').once('value', renderUser)
+    });
+    
+  //Services interface
+  interface $q {
+    when: Functi
