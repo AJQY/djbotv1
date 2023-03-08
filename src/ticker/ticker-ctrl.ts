@@ -22,4 +22,10 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
     
   //Services interface
   interface $q {
-    when: Functi
+    when: Function
+  }
+  interface $http {
+    get: Function
+  }
+  interface AuthenticationService {
+  
