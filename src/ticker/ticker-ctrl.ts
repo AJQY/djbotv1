@@ -35,4 +35,7 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
     }
   }
 
-  //Chart options i
+  //Chart options interface
+  interface IChartOptions {
+    chart: {
+      renderTo: HTMLElemen
