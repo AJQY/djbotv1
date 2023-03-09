@@ -28,4 +28,11 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
     get: Function
   }
   interface AuthenticationService {
-  
+    auth: {
+      data: {
+        uid: string
+      }
+    }
+  }
+
+  //Chart options i
