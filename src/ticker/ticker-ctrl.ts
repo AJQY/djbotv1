@@ -44,4 +44,10 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
 
   //Series options interface
   interface ISeriesData {
-    forEach: Functi
+    forEach: Function,
+    ref: Function
+  }
+
+  //Data point interface
+  interface IDataPoint {
+    val: Func
