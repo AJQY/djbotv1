@@ -50,4 +50,8 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
 
   //Data point interface
   interface IDataPoint {
-    val: Func
+    val: Function
+  }
+
+  //Set up the chart
+  function setUpChart(json: { data: Object }) 
