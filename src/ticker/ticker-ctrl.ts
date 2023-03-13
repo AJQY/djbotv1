@@ -54,4 +54,5 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
   }
 
   //Set up the chart
-  function setUpChart(json: { data: Object }) 
+  function setUpChart(json: { data: Object }) {
+    var chartOptions: IChartOptions = json.data['chart-options'] || 
