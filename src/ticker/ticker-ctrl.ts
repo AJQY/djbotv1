@@ -58,4 +58,6 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
     var chartOptions: IChartOptions = json.data['chart-options'] || json.data['ticker/chart-options'];
     chartOptions.chart.renderTo = $('#stockTicker')[0];
     ctrl.chart = new Highcharts.StockChart(chartOptions);
-    ctrl.chart.showLoa
+    ctrl.chart.showLoading();
+    ctrl.renderChart = _.debounce(ctrl.chart.redraw, 10000);
+    return $q.
