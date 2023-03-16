@@ -64,4 +64,8 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
   }
 
   function renderUser(seriesData: ISeriesData) {
-    var line = ctrl.chart.
+    var line = ctrl.chart.addSeries({});
+
+    //Set initial data
+    var data: number[] = [];
+    seriesData.forEach(
