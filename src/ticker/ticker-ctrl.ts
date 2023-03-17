@@ -68,4 +68,8 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
 
     //Set initial data
     var data: number[] = [];
-    seriesData.forEach(
+    seriesData.forEach(function(value: IDataPoint) {
+      data.push(value.val());
+    });
+    line.setData(data);
+    ctrl.
