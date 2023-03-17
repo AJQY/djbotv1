@@ -72,4 +72,7 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
       data.push(value.val());
     });
     line.setData(data);
-    ctrl.
+    ctrl.chart.hideLoading();
+
+    //Update lines as new values come in
+    seriesData.ref().limitToLa
