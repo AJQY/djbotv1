@@ -75,4 +75,5 @@ angular.module('RealTimeTrade').controller('TickerCtrl', function($q: $q, $http:
     ctrl.chart.hideLoading();
 
     //Update lines as new values come in
-    seriesData.ref().limitToLa
+    seriesData.ref().limitToLast(1).on('child_added', function(point: IDataPoint) {
+      line.addPoint(poin
