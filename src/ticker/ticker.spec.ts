@@ -1,0 +1,1 @@
+describe('Ticker', functio
