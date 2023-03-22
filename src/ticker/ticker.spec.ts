@@ -3,4 +3,6 @@ describe('Ticker', function () {
 
     beforeEach(module('RealTimeTrade', 'RealTimeTrade.Templates'));
 
-    beforeEach(inject(function ($compile, $httpBackend, $rootSc
+    beforeEach(inject(function ($compile, $httpBackend, $rootScope, AuthenticationService) {
+        AuthenticationService.auth.data = {
+            uid: 'AAA
