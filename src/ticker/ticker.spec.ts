@@ -10,4 +10,8 @@ describe('Ticker', function () {
 
         $httpBackend.whenGET('json.js').respond({
             'chart-options': {
-        
+                'chart': {}
+            }
+        });
+
+        $scope = $ro
