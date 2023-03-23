@@ -5,4 +5,9 @@ describe('Ticker', function () {
 
     beforeEach(inject(function ($compile, $httpBackend, $rootScope, AuthenticationService) {
         AuthenticationService.auth.data = {
-            uid: 'AAA
+            uid: 'AAA'
+        };
+
+        $httpBackend.whenGET('json.js').respond({
+            'chart-options': {
+        
