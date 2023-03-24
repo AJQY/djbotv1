@@ -14,4 +14,6 @@ describe('Ticker', function () {
             }
         });
 
-        $scope = $ro
+        $scope = $rootScope.$new();
+        elem = $compile('<ticker></ticker>')($scope);
+        $scop
