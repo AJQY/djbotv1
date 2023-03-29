@@ -16,4 +16,8 @@ describe('Ticker', function () {
 
         $scope = $rootScope.$new();
         elem = $compile('<ticker></ticker>')($scope);
-        $scop
+        $scope.$digest();
+    }));
+
+    describe('initialization', function () {
+  
