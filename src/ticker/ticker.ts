@@ -7,4 +7,6 @@
 * @description
 **/
 angular.module('RealTimeTrade').component('ticker', {
-  templat
+  templateUrl: 'ticker/ticker.html',
+  controller: 'TickerCtrl'
+});
