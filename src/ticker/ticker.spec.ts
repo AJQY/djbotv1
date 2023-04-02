@@ -20,4 +20,6 @@ describe('Ticker', function () {
     }));
 
     describe('initialization', function () {
-  
+        it('creates the element', function () {
+            expect(elem).toBeDefined();
+ 
