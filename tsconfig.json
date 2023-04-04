@@ -3,4 +3,8 @@
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": false,
-    "preserveConstEnums
+    "preserveConstEnums": true,
+    "target": "es5",
+    "sourceMap": true
+  }
+}

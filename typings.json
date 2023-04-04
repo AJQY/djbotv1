@@ -1,0 +1,32 @@
+
+{
+  "name": "RealTimeTradeGame",
+  "dependencies": {
+    "gulp": "github:typed-typings/npm-gulp#504da08753acdfe9dd2c415ab8fe36151e9645c1"
+  },
+  "ambientDependencies": {
+    "Q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#af76bf46025371c760d8fe8c03cf874428da6124",
+    "Q-io": "github:DefinitelyTyped/DefinitelyTyped/q-io/Q-io.d.ts#af76bf46025371c760d8fe8c03cf874428da6124",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#17ef40452039d19e06dc2a3815ea898c505860fa",
+    "angular-material": "github:DefinitelyTyped/DefinitelyTyped/angular-material/angular-material.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#b3aeee64552e324581fdbe0926f4a96e981e451b",
+    "angular-protractor": "github:DefinitelyTyped/DefinitelyTyped/angular-protractor/angular-protractor.d.ts#17fa1e5f269189f7f8e0f53f8c443e6c2eac562c",
+    "angularfire": "github:DefinitelyTyped/DefinitelyTyped/angularfire/angularfire.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "firebase": "github:DefinitelyTyped/DefinitelyTyped/firebase/firebase.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "gulp-concat": "github:DefinitelyTyped/DefinitelyTyped/gulp-concat/gulp-concat.d.ts#af76bf46025371c760d8fe8c03cf874428da6124",
+    "gulp-less": "github:DefinitelyTyped/DefinitelyTyped/gulp-less/gulp-less.d.ts#76ed26e95e91f1c91f2d11819c44b55b617e859a",
+    "gulp-protractor": "github:DefinitelyTyped/DefinitelyTyped/gulp-protractor/gulp-protractor.d.ts#052725d74978d6b8d7c4ff537b5a3b21ee755a49",
+    "he": "github:DefinitelyTyped/DefinitelyTyped/he/he.d.ts#8f124a0b79156174fb3cff70124a231ff19ba45a",
+    "highcharts": "github:DefinitelyTyped/DefinitelyTyped/highcharts/highcharts.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#b3aeee64552e324581fdbe0926f4a96e981e451b",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "karma": "github:DefinitelyTyped/DefinitelyTyped/karma/karma.d.ts#b3aeee64552e324581fdbe0926f4a96e981e451b",
+    "karma-jasmine": "github:DefinitelyTyped/DefinitelyTyped/karma-jasmine/karma-jasmine.d.ts#b3aeee64552e324581fdbe0926f4a96e981e451b",
+    "less": "github:DefinitelyTyped/DefinitelyTyped/less/less.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#c8630523ef2ee3fb42fe65cc17af5b1b56e611bc",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#af76bf46025371c760d8fe8c03cf874428da6124",
+    "moment-timezone": "github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#af76bf46025371c760d8fe8c03cf874428da6124",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#a213223e1bdf40b280ebf765b42e7ef3da9394dc",
+    "run-sequence": "github:DefinitelyTyped/DefinitelyTyped/run-sequence/run-sequence.d.ts#af76bf46025371c760d8fe8c03cf874428da6124"
+  }
+}
