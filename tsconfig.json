@@ -1,3 +1,6 @@
 {
   "compilerOptions": {
-    "module"
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums
